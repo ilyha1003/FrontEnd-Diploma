@@ -1,0 +1,15 @@
+{
+  "name": "frontend_diplom",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./index.html",
+  "scripts": {
+    "start": "npx parcel",
+    "build": "npx parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}

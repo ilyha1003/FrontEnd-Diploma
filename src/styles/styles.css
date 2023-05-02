@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "RobotoB";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "RalewayR";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+a {
+    color: black;
+}
+
+body {
+    font-family: "Raleway";
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.navigation {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 10px;
+}
+
+.logo-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-right: 64px;
+}
+
+.logo-img {
+    width: 41px;
+    height: 32px;
+}
+
+.logo-name {
+    font-size: 12px;
+    font-family: "RobotoB";
+    white-space: nowrap;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-right: 48px;
+}
+
+.nav-list__item {
+    white-space: nowrap;
+}
+
+.search-field {
+    position: relative;
+    margin-right: 22px;
+}
+
+.search__input {
+    width: 340px;
+    height: 48px;
+    border-radius: 22px;
+    border: 2px solid #969696;
+    padding-left: 20px;
+}
+
+.search__input::placeholder {
+    color: #969696;
+    font-family: "RalewayR";
+}
+
+.search-ico-field {
+    background: greenyellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 4px;
+    top: 4px;
+}
+
+.fast-info-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fast-info-content {
+    font-family: "RobotoB";
+}
