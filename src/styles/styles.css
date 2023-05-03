@@ -21,6 +21,8 @@ body {
     font-size: 16px;
 }
 
+
+/* Navigation */
 .navigation {
     max-width: 1440px;
     margin: 0 auto;
@@ -28,6 +30,7 @@ body {
     align-items: center;
     height: 100px;
     padding: 0 10px;
+    justify-content: space-between;
 }
 
 .logo-field {
@@ -91,6 +94,11 @@ body {
     top: 4px;
 }
 
+.search-ico {
+    width: 24px;
+    height: 24px;
+}
+
 .fast-info-number {
     display: flex;
     justify-content: space-between;
@@ -99,4 +107,142 @@ body {
 
 .fast-info-content {
     font-family: "RobotoB";
+    white-space: nowrap;
+}
+
+.nav-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    display: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.rectangle {
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+}
+
+
+
+
+/* Slider */
+.hero-slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+  
+.hero-slider-slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+  
+.hero-slider-slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.hero-pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+  
+.hero-pagination button {
+    background-color: #cf9797;
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+.hero-pagination button.active {
+    background-color: #000;
+}
+    
+.hero-controls {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.hero-controls button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1215px) {
+    .search__input {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .logo-field {
+        margin-right: 20px;
+    }
+    .nav__list {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .logo-name {
+        font-size: 10px;
+    }
+    .nav-list__item a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .nav-mobile {
+        display: flex;
+    }
+    .nav__list, .fast-info {
+        display: none;
+    }
+    .logo-name {
+        font-size: 12px;
+    }
+    .logo-field, .search-field {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .search__input {
+        font-size: 12px;
+        height: 30px;
+        width: 200px;
+    }
+    .search-ico-field {
+        width: 24px;
+        height: 24px;
+        right: 3px;
+        top: 3px;
+    }
 }

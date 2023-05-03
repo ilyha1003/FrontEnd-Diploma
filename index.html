@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./src/images/website_logo.png" type="image/png">
+    <link rel="icon" href="./src/images/website_ico.png" type="image/png">
     <title>Travel Together</title>
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="./src/js/app.js"></script>
 </head>
 <body>
     <nav class="navigation">
-        <div class="logo-field">
+        <a class="logo-field" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="41" height="32" fill="none">
                 <path fill="#101010" d="m40.997 9.94008-1.5184 4.68422H18.2209l-1.5184-4.68422H40.997ZM25.8129 0l6.4518 4.55522V24.5333c0 .5738.0667 1.0209.2002 1.3412.1334.3069.3603.5271.6806.6606.3336.1201.774.1801 1.3212.1801.387 0 .7073-.0066.9608-.02.2536-.0267 3.8242-.083 4.0511-.1231l-3.3304 4.8474c-.5739.1868-1.1744.3269-1.8016.4204-.6273.1067-1.2945.1601-2.0018.1601-1.4413 0-2.6758-.2269-3.7034-.6806-1.0142-.4538-1.7883-1.1677-2.3221-2.1419-.5338-.9743-.8007-2.2421-.8007-3.8035L25.8129 0Z"/>
                 <path fill="#000" fill-opacity=".2" d="m40.997 9.94008-1.5184 4.68422H18.2209l-1.5184-4.68422H40.997ZM25.8129 0l6.4518 4.55522V24.5333c0 .5738.0667 1.0209.2002 1.3412.1334.3069.3603.5271.6806.6606.3336.1201.774.1801 1.3212.1801.387 0 .7073-.0066.9608-.02.2536-.0267 3.8242-.083 4.0511-.1231l-3.3304 4.8474c-.5739.1868-1.1744.3269-1.8016.4204-.6273.1067-1.2945.1601-2.0018.1601-1.4413 0-2.6758-.2269-3.7034-.6806-1.0142-.4538-1.7883-1.1677-2.3221-2.1419-.5338-.9743-.8007-2.2421-.8007-3.8035L25.8129 0Z"/>
@@ -19,7 +22,7 @@
                 <path fill="#000" fill-opacity=".2" d="M16.5228 0v31.8866H9.07801V0h7.44479Zm9.2901 0v5.93493H0V0h25.8129Z"/>
             </svg>
             <span class="logo-name">Travel Together</span>
-        </div>
+        </a>
         <ul class="nav__list">
             <li class="nav-list__item">
                 <a href="#">Destinations</a>
@@ -40,7 +43,7 @@
         <div class="search-field">
             <input class="search__input" type="text" placeholder="Find your adventure">
             <div class="search-ico-field">
-                <svg class="search-ico" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                <svg class="search-ico" xmlns="http://www.w3.org/2000/svg"  fill="none">
                     <circle cx="11" cy="11" r="7" stroke="#101010" stroke-width="2"/>
                     <circle cx="11" cy="11" r="7" stroke="#000" stroke-opacity=".2" stroke-width="2"/>
                     <path stroke="#101010" stroke-linecap="round" stroke-width="2" d="m20 20-3-3"/>
@@ -57,6 +60,30 @@
             </div>
             <span class="fast-info-content">00 41 22 626 1692</span>
         </div>
+        <div class="nav-mobile">
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle"></div>
+        </div>
     </nav>
+    <main class="main">
+        <section class="hero-section">
+            <div class="hero-slider">
+                <div class="hero-slider-slides">
+                    <img src="./src/images/hero-section-1.webp" alt="Slide 1">
+                    <img src="./src/images/hero-section-2.webp" alt="Slide 2">
+                    <img src="./src/images/hero-section-3.webp" alt="Slide 3">
+                </div>
+                <div class="hero-pagination"></div>
+                <div class="hero-controls">
+                    <button class="hero-slider-prev" id="hero-slider-prev">Prev</button>
+                    <button class="hero-slider-next" id="hero-slider-next">Next</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
