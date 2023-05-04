@@ -1,4 +1,17 @@
 class Slider {
+    autoSwiping(index) {
+        setInterval(() => {
+            console.log(this.slideIndex)
+            if(index < 2) {
+                this.slideTo(index);
+                index += 1;
+            }
+            else {
+                this.slideTo(0);
+                index = 0;
+            }
+        }, 3000);
+    }
 
     updatePagination(slideIndex) {
         const pagination = document.querySelector('.hero-pagination');
@@ -16,26 +29,29 @@ class Slider {
         const slides = document.querySelector('.hero-slider-slides');
         const slideWidth = slides.firstElementChild.clientWidth;
         slides.style.transform = `translateX(-${index * slideWidth}px)`;
-        let currentIndex = index;
-        this.updatePagination(currentIndex);
+        slides.style.transitionDuration = '0.9s';
+        this.slideIndex = index;
+        this.updatePagination(this.slideIndex);
     }
 
     prevSlide() {
         const slides = document.querySelector('.hero-slider-slides');
-        if (slideIndex === 0) {
+        if (this.slideIndex === 0) {
             this.slideTo(slides.children.length - 1);
         } else {
-            this.slideTo(slideIndex - 1);
+            this.slideTo(this.slideIndex - 1);
         }
+        console.log(this.slideIndex);
     }
 
     nextSlide() {
         const slides = document.querySelector('.hero-slider-slides');
-        if (slideIndex === slides.children.length - 1) {
+        if (this.slideIndex === slides.children.length - 1) {
             this.slideTo(0);
         } else {
-            this.slideTo(slideIndex + 1);
+            this.slideTo(this.slideIndex + 1);
         }
+        console.log(this.slideIndex);
     }
 
     createPagination(slideIndex) {
@@ -53,9 +69,10 @@ class Slider {
         this.slideIndex = 0;
         this.createPagination(this.slideIndex);
         this.prevBtn = document.getElementById('hero-slider-prev');
-        this.prevBtn.addEventListener('click', this.prevSlide);
+        this.prevBtn.addEventListener('click', () => this.prevSlide());
         this.nextBtn = document.getElementById('hero-slider-next');
-        this.nextBtn.addEventListener('click', this.nextSlide);
+        this.nextBtn.addEventListener('click', () => this.nextSlide());
+        this.autoSwiping(this.slideIndex);
     }
 }
 
