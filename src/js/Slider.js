@@ -1,16 +1,15 @@
 class Slider {
-    autoSwiping(index) {
+    autoSwiping() {
         setInterval(() => {
-            console.log(this.slideIndex)
-            if(index < 2) {
-                this.slideTo(index);
-                index += 1;
+            if(this.slideIndex < 2) {
+                this.slideIndex += 1;
+                this.slideTo(this.slideIndex);
             }
             else {
+                this.slideIndex = 0;
                 this.slideTo(0);
-                index = 0;
             }
-        }, 3000);
+        }, 4000);
     }
 
     updatePagination(slideIndex) {
@@ -26,32 +25,27 @@ class Slider {
     }
 
     slideTo(index) {
-        const slides = document.querySelector('.hero-slider-slides');
-        const slideWidth = slides.firstElementChild.clientWidth;
-        slides.style.transform = `translateX(-${index * slideWidth}px)`;
-        slides.style.transitionDuration = '0.9s';
+        const slideWidth = this.slides.firstElementChild.clientWidth;
+        this.slides.style.transform = `translateX(-${index * slideWidth}px)`;
+        this.slides.style.transitionDuration = '0.9s';
         this.slideIndex = index;
-        this.updatePagination(this.slideIndex);
+        this.updatePagination(index);
     }
 
     prevSlide() {
-        const slides = document.querySelector('.hero-slider-slides');
         if (this.slideIndex === 0) {
-            this.slideTo(slides.children.length - 1);
+            this.slideTo(this.slides.children.length - 1);
         } else {
             this.slideTo(this.slideIndex - 1);
         }
-        console.log(this.slideIndex);
     }
 
     nextSlide() {
-        const slides = document.querySelector('.hero-slider-slides');
-        if (this.slideIndex === slides.children.length - 1) {
+        if (this.slideIndex >= this.slides.children.length - 1) {
             this.slideTo(0);
         } else {
             this.slideTo(this.slideIndex + 1);
         }
-        console.log(this.slideIndex);
     }
 
     createPagination(slideIndex) {
@@ -66,13 +60,14 @@ class Slider {
     }
 
     constructor() {
+        this.slides = document.querySelector('.hero-slider-slides');
         this.slideIndex = 0;
         this.createPagination(this.slideIndex);
         this.prevBtn = document.getElementById('hero-slider-prev');
         this.prevBtn.addEventListener('click', () => this.prevSlide());
         this.nextBtn = document.getElementById('hero-slider-next');
         this.nextBtn.addEventListener('click', () => this.nextSlide());
-        this.autoSwiping(this.slideIndex);
+        this.autoSwiping();
     }
 }
 
