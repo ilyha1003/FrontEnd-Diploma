@@ -274,6 +274,128 @@ body {
     border-right: 1px solid #CCCCCC;
 }
 
+/* Popular Searches */
+.popular-searches {
+    padding: 128px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header {
+    font-size: 64px;
+    font-family: "RobotoB";
+    margin: 0 auto;
+    padding-bottom: 64px;
+}
+
+.popular-searches__list {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.popular-searches-list__item {
+    border: 1px solid #72777A;
+    border-radius: 56px;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+
+/* Recently wieved trips */
+.recently-trips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.recently-trips__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recently-trips-list__item {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #CECACA;
+    border-radius: 48px;
+    box-shadow: none;
+}
+
+.recently-trips-preview {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.recently-trips-preview-price {
+    background-color:#BCFD49;
+    width: 196px;
+    height: 46px;
+    border-top-left-radius: 46px;
+    border-bottom-right-radius: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "RobotoB";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.recently-trips-list-item-wrapper {
+    margin: 0 24px;
+    padding-bottom: 32px;
+    border-bottom: 1px dashed #72777A;
+}
+
+.recently-trips-list-item-header {
+    font-family: "RobotoB";
+    font-size: 24px;
+}
+
+.recently-trips-rating-field {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.recently-trips-rating-field-stars {
+    display: flex;
+}
+
+.recently-trips-rating-field-number {
+    font-family: "RobotoB";
+}
+
+.recently-trips-description {
+    display: flex;
+    align-items: center;
+}
+
+.recently-trips-small-button {
+    margin: 32px 0 40px;
+    width: 209px;
+    height: 48px;
+    border-radius: 48px;
+}
+
 
 
 
@@ -298,7 +420,7 @@ body {
     .search__input {
         max-width: 250px;
     }
-    .hero-header {
+    .hero-header, .section-header {
         font-size: 50px;
     }
     .hero-large-button {
@@ -351,7 +473,7 @@ body {
     .nav-list__item a {
         font-size: 14px;
     }
-    .hero-header {
+    .hero-header, .section-header {
         font-size: 44px;
     }
     .hero-large-button {
@@ -385,7 +507,7 @@ body {
         width: auto;
         height: auto;
         border-radius: 10px;
-        padding: 10px 16px;
+        padding: 8px 8px;
         bottom: 10%;
     }
     .hero-search-categories {
@@ -407,18 +529,49 @@ body {
 }
 
 @media screen and (max-width: 860px) {
-    .hero-header {
+    .hero-header, .section-header {
         font-size: 36px;
+    }
+    .hero-search-input::placeholder {
+        font-size: 12px;
+    }
+    .hero-search-category {
+        height: 35px;
     }
 }
 
 @media screen and (max-width: 680px) {
-    .hero-header {
+    .hero-header, .section-header {
         font-size: 28px;
+    }
+    .hero-search-field {
+        display: none;
+    }
+    .popular-searches {
+        padding: 64px 0;
+    }
+    .popular-searches-list__item {
+        font-size: 14px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .hero-large-button {
+        width: 200px;
+    }
+    .popular-searches {
+        padding: 32px 0;
+    }
+    .section-header {
+        padding-bottom: 32px;
     }
 }
 
 @media screen and (max-width: 420px) {
+    .navigation {
+        height: 60px;
+    }
     .search__input {
         font-size: 12px;
         height: 30px;
@@ -430,9 +583,17 @@ body {
         right: 3px;
         top: 3px;
     }
+    .hero-header, .popular-searches-header {
+        font-size: 22px;
+    }
+    .hero-large-button {
+        font-size: 14px;
+        width: 160px;
+        height: 34px;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 380px) {
     .search__input {
         width: 180px;
     }
