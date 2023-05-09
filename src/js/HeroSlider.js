@@ -1,4 +1,4 @@
-class Slider {
+class HeroSlider {
     autoSwiping() {
         setInterval(() => {
             if(this.slideIndex < 2) {
@@ -71,4 +71,4 @@ class Slider {
     }
 }
 
-export default Slider;
+export default HeroSlider;

@@ -3,17 +3,26 @@
     src: url(../fonts/Raleway-SemiBold.ttf);
 }
 @font-face {
-    font-family: "RobotoB";
-    src: url(../fonts/Roboto-Bold.ttf);
-}
-@font-face {
     font-family: "RalewayR";
     src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "RalewayB";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: "RobotoB";
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
     font-family: "RobotoBlack";
     src: url(../fonts/Roboto-Black.ttf);
 }
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Regular.otf);
+}
+
 
 a {
     color: black;
@@ -315,27 +324,51 @@ body {
 
 /* Recently wieved trips */
 .recently-trips {
+    max-width: 1440px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.main-section-wrapper {
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
+}
+
+.recently-trips-header-field {
+    display: flex;
     justify-content: center;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-bottom: 100px;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.recently-trips-header {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.recently-trips-link {
+    color: #7483BD;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%);
 }
 
 .recently-trips__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.recently-trips-list__item {
+.trips-list__item {
     width: 384px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid #CECACA;
     border-radius: 48px;
-    box-shadow: none;
+    box-shadow: 1px 1px 10px #d4d4d4;
 }
 
 .recently-trips-preview {
@@ -359,9 +392,10 @@ body {
 }
 
 .recently-trips-list-item-wrapper {
-    margin: 0 24px;
+    margin: 0 22px;
     padding-bottom: 32px;
     border-bottom: 1px dashed #72777A;
+    height: 230px;
 }
 
 .recently-trips-list-item-header {
@@ -387,6 +421,7 @@ body {
 .recently-trips-description {
     display: flex;
     align-items: center;
+    gap: 4px;
 }
 
 .recently-trips-small-button {
@@ -395,6 +430,183 @@ body {
     height: 48px;
     border-radius: 48px;
 }
+
+.recently-trips-description-field {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.recently-trips-description-content {
+    font-family: "RobotoB";
+    color: #808080;
+}
+
+.recently-trips-medium-button {
+    height: 56px;
+    width: 250px;
+    border-radius: 56px;
+}
+
+.recently-trips-control {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+
+/* Most popular trips */
+.popular-trips {
+    max-width: 1440px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.main-section-wrapper {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-trips-header-field {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.popular-trips-header {
+    padding: 0;
+}
+
+.popular-trips-control {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-40%);
+}
+
+
+.popular-trips-slider-prev, .popular-trips-slider-next {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+/* Why choose Travel Together */
+.choose-reason {
+    padding-bottom: 100px;
+}
+
+.choose-reason__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.choose-reason-list__item {
+    padding: 31px 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    line-height: 160%;
+    border-radius: 64px;
+    border: 1px solid #CECACA;
+}
+
+.choose-reason-list__item:hover {
+    background-color: #BCFD49;
+}
+
+.choose-reason-name {
+    font-size: 24px;
+}
+
+.choose-reason-description {
+    font-family: "RalewayR";
+    max-width: 246px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Where are we go */
+
+
+
+/* Footer */
+.footer {
+    background-color: #000;
+    padding: 128px 112px 80px; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-logo-name {
+    color: #fff;
+    font-size: 24px;
+    font-family: "RobotoB";
+    line-height: 160%;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.footer-logo-field {
+    margin: 0;
+}
+
+.footer-info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "RalewayR";
+    line-height: 160%;
+}
+
+.footer-info__list a, .copyright {
+    color: #9D9595;
+}
+
+.header__item {
+    font-size: 20px;
+    font-family: "RalewayB";
+    color: #fff;
+}
+
+.social-links {
+    padding-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.payment-systems {
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+.copyright {
+    font-family: "Inter";
+    font-size: 12px;
+    text-align: center;
+}
+
+
 
 
 
@@ -437,6 +649,9 @@ body {
     }
     .hero-search-field {
         width: 1000px;
+    }
+    .recently-trips__list {
+        gap: 15px;
     }
 }
 
@@ -526,6 +741,9 @@ body {
     .hero-medium-button {
         height: 36px;
     }
+    .footer {
+        padding: 128px 80px 80px;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -537,6 +755,25 @@ body {
     }
     .hero-search-category {
         height: 35px;
+    }
+    .footer-info {
+        gap: 22px;
+        justify-content: space-around;
+    }
+    .footer-info__list {
+        text-align: center;
+    }
+    .social-links {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .recently-trips-link {
+        display: none;
+    }
+    .recently-trips-control {
+        display: flex;
     }
 }
 
@@ -596,5 +833,14 @@ body {
 @media screen and (max-width: 380px) {
     .search__input {
         width: 180px;
+    }
+    .recently-trips-preview-price {
+        border-bottom-right-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .recently-trips-preview-price {
+        border-bottom-right-radius: 38px;
     }
 }

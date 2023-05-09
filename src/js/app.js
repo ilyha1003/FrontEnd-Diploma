@@ -1,6 +1,6 @@
-import Slider from './Slider'
+import HeroSlider from './HeroSlider'
 
 document.addEventListener('DOMContentLoaded', () => {
-    const slider = new Slider();
+    const heroSlider = new HeroSlider();
 
 })
