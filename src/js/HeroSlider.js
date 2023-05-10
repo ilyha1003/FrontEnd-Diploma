@@ -67,7 +67,7 @@ class HeroSlider {
         this.prevBtn.addEventListener('click', () => this.prevSlide());
         this.nextBtn = document.getElementById('hero-slider-next');
         this.nextBtn.addEventListener('click', () => this.nextSlide());
-        // this.autoSwiping();
+        this.autoSwiping();
     }
 }
 

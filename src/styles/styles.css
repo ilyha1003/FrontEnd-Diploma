@@ -11,6 +11,10 @@
     src: url(../fonts/Raleway-Black.ttf);
 }
 @font-face {
+    font-family: "RalewayBold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
     font-family: "RobotoB";
     src: url(../fonts/Roboto-Bold.ttf);
 }
@@ -51,7 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    margin-right: 64px;
+    margin-right: 30px;
 }
 
 .logo-img {
@@ -69,11 +73,20 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    margin-right: 48px;
+    margin-right: 20px;
 }
 
 .nav-list__item {
     white-space: nowrap;
+}
+
+.nav-list__item a {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.nav-list__item a:hover {
+    background-color: #BCFD49;
 }
 
 .search-field {
@@ -298,6 +311,7 @@ body {
     font-family: "RobotoB";
     margin: 0 auto;
     padding-bottom: 64px;
+    text-align: center;
 }
 
 .popular-searches__list {
@@ -395,7 +409,7 @@ body {
     margin: 0 22px;
     padding-bottom: 32px;
     border-bottom: 1px dashed #72777A;
-    height: 230px;
+    min-height: 230px;
 }
 
 .recently-trips-list-item-header {
@@ -456,6 +470,7 @@ body {
 }
 
 
+
 /* Most popular trips */
 .popular-trips {
     max-width: 1440px;
@@ -498,6 +513,8 @@ body {
 /* Why choose Travel Together */
 .choose-reason {
     padding-bottom: 100px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .choose-reason__list {
@@ -525,6 +542,7 @@ body {
 
 .choose-reason-name {
     font-size: 24px;
+    text-align: center;
 }
 
 .choose-reason-description {
@@ -539,13 +557,100 @@ body {
 
 
 /* Where are we go */
+.places {
+    max-width: 1440px;
+    margin: 0  auto;
+    padding-bottom: 130px;
+}
+
+.places__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32;
+}
+
+.places-list__item {
+    position: relative;
+}
+
+.places-name {
+    position: absolute;
+    color: #fff;
+    line-height: 160%;
+    font-size: 48px;
+    font-family: "RalewayB";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+.places-item-more {
+    cursor: pointer;
+}
+
+
+
+
+
+/* Try our app */
+.travel-application {
+    max-width: 1216px;
+    margin: 0 auto 128px;
+    position: relative;
+    z-index: 1;
+}
+
+.travel-application-content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 64px;
+    background-color: #BCFD49;
+    padding: 64px;
+}
+
+.travel-application-header {
+    font-size: 48px;
+    margin: 0;
+    text-align: left;
+    line-height: 120%;
+    padding-bottom: 25px;
+}
+
+.travel-application-description {
+    font-size: 16px;
+    line-height: 160%;
+    font-family: "RalewayR";
+    max-width: 593px;
+    letter-spacing: 0.02em;
+    padding-bottom: 59px;
+}
+
+.app-stores {
+    display: flex;
+    gap: 32px;
+}
+
+.application-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+
+
+
+
+
 
 
 
 /* Footer */
 .footer {
     background-color: #000;
-    padding: 128px 112px 80px; 
+    padding: 128px 112px 60px; 
     display: flex;
     flex-direction: column;
     
@@ -556,6 +661,7 @@ body {
     font-size: 24px;
     font-family: "RobotoB";
     line-height: 160%;
+    text-align: center;
 }
 
 .footer-info {
@@ -575,6 +681,10 @@ body {
     gap: 8px;
     font-family: "RalewayR";
     line-height: 160%;
+}
+
+.footer-info-list__item a:hover {
+    color: #fff;
 }
 
 .footer-info__list a, .copyright {
@@ -661,6 +771,10 @@ body {
     }
     .nav__list {
         margin-right: 20px;
+        gap: 16px;
+    }
+    .nav-list__item a {
+        font-size: 14px;
     }
     .hero-search-category {
         padding-left: 5px;
@@ -684,9 +798,6 @@ body {
 @media screen and (max-width: 1050px) {
     .logo-name {
         font-size: 10px;
-    }
-    .nav-list__item a {
-        font-size: 14px;
     }
     .hero-header, .section-header {
         font-size: 44px;
@@ -791,6 +902,13 @@ body {
         font-size: 14px;
         width: 170px;
     }
+    .footer-logo-field img {
+        height: 40;
+        width: 59;
+    }
+    .footer-logo-name {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -802,6 +920,16 @@ body {
     }
     .section-header {
         padding-bottom: 32px;
+    }
+    .recently-trips-header-field {
+        margin-bottom: 0;
+    }
+    .places-name {
+        font-size: 36px;
+    }
+    .footer {
+        padding-top: 80px;
+        padding-bottom: 16px;
     }
 }
 
@@ -828,6 +956,9 @@ body {
         width: 160px;
         height: 34px;
     }
+    .places-name {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -836,6 +967,9 @@ body {
     }
     .recently-trips-preview-price {
         border-bottom-right-radius: 40px;
+    }
+    .recently-trips-description-content{
+        font-size: 14px;
     }
 }
 
