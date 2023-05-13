@@ -179,7 +179,7 @@ body {
     object-fit: cover;
 }
   
-.hero-pagination {
+.hero-pagination, .review-pagination {
     position: absolute;
     bottom: 3%;
     left: 50%;
@@ -187,7 +187,7 @@ body {
     display: flex;
 }
   
-.hero-pagination button {
+.hero-pagination button, .review-pagination button {
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 7px;
@@ -197,7 +197,7 @@ body {
     margin: 0 5px;
 }
   
-.hero-pagination button.active {
+.hero-pagination button.active, .review-pagination button.active {
     background-color: #fff;
 }
 
@@ -339,12 +339,13 @@ body {
 
 /* Recently wieved trips */
 .recently-trips {
-    max-width: 1440px;
+    max-width: 1236px;
     padding-bottom: 100px;
     margin: 0 auto;
 }
 
 .main-section-wrapper {
+    width: 100%;
     padding: 0 10px;
     display: flex;
     flex-direction: column;
@@ -515,7 +516,7 @@ body {
 .choose-reason {
     padding-bottom: 100px;
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1236px;
 }
 
 .choose-reason__list {
@@ -553,6 +554,65 @@ body {
     text-align: center;
 }
 
+/* What travellers are saying */
+.travellers-review {
+    padding-bottom: 140px;
+    margin: 0 auto;
+    max-width: 1236px;
+}
+
+.travellers-review-wrapper {
+    position: relative;
+}
+
+.black-insert {
+    background: #000;
+    margin: 0 auto;
+    width: 748px;
+    height: 464px;
+    border-radius: 34px;
+}
+
+.carousel__list {
+    display: flex;
+    overflow: auto;
+    width: 100%;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    gap: 2%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 34px 0;
+}
+
+.carousel__list::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-list__item {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 80px;
+    width: 32%;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    flex-grow: 1;
+    border: 2px solid #F3F2F2;
+    border-radius: 20px;
+}
+
+.review-name {
+    font-size: 20px;
+    line-height: 160%;
+    padding: 8px 0 13px ;
+}
+
+.review-description {
+    font-family: "RalewayR";
+    line-height: 160%;
+}
 
 
 
@@ -560,7 +620,7 @@ body {
 
 /* Where are we go */
 .places {
-    max-width: 1440px;
+    max-width: 1236px;
     margin: 0  auto;
     padding-bottom: 130px;
 }
@@ -956,6 +1016,18 @@ body {
     .recently-trips-control {
         display: flex;
     }
+    .carousel-list__item {
+        width: 49.5%;
+    }
+    .black-insert {
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .black-insert {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -999,6 +1071,9 @@ body {
         top: 50%;
         transform: translateY(-50%);
     }
+    .black-insert {
+        width: 450px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -1036,6 +1111,12 @@ body {
     }
     .application-image {
         opacity: 0.7;
+    }
+    .carousel-list__item {
+        width: 100%;
+    }
+    .black-insert {
+        width: 300px;
     }
 }
 
