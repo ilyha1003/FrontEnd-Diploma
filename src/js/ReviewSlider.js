@@ -19,7 +19,7 @@ class ReviewSlider {
         const listItem = document.querySelector('.carousel-list__item');
         const listItemWidth = listItem.offsetWidth;
 
-        return(listItemWidth);
+        return (listItemWidth);
     }
 
     scroll(slidesAmount, factor) {
@@ -45,7 +45,6 @@ class ReviewSlider {
     createPagination(slideIndex, slidesAmount) {  
         this.pagination.innerHTML = '';      
         for (let i = 0; i < Math.round(this.carousel.children.length / slidesAmount); i++) {
-            console.log(Math.floor(this.carousel.children.length / slidesAmount));
             const button = document.createElement('button');
             button.addEventListener('click', () => this.slideTo(i));
             this.pagination.appendChild(button);

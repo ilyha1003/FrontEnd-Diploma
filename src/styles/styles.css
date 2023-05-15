@@ -38,16 +38,24 @@ body {
     font-size: 16px;
 }
 
+.lock {
+    overflow: hidden;
+}
+
 
 /* Navigation */
 .navigation {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+}
+
+.desktop-navigation {
     align-items: center;
-    height: 100px;
-    padding: 0 10px;
+    display: flex;
     justify-content: space-between;
+    padding: 24px 10px;
 }
 
 .logo-field {
@@ -69,11 +77,21 @@ body {
     white-space: nowrap;
 }
 
-.nav__list {
+.nav__list, .mobile__list {
     display: flex;
     justify-content: space-between;
     gap: 32px;
     margin-right: 20px;
+}
+
+.mobile__list {
+    display: none;
+}
+
+.mobile-list-active {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .nav-list__item {
@@ -126,10 +144,15 @@ body {
     height: 24px;
 }
 
-.fast-info-number {
+.fast-info-number, .info-number {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.info-number {
+    justify-content: flex-start;
+    gap: 16px;
 }
 
 .fast-info-content {
@@ -143,17 +166,47 @@ body {
     gap: 7px;
     display: none;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 10px;
+}
+
+.nav-mobile-active {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mobile-position {
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0;
+    width: 40px !important;
+}
+
+.mobile-position-hidden {
+    display: none;
+}
+
+.mobile-position-reverse {
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 0;
+    width: 40px !important;
+}
+
+.mobile-active {
+    position: relative;
+    width: 60px;
 }
 
 .rectangle {
     width: 30px;
     height: 4px;
     background-color: #000;
+    transition: all 0.5s ease 0s;
 }
 
-
-
+.hidden {
+    display: none;
+}
 
 .hero-section {
     position: relative;
@@ -297,11 +350,20 @@ body {
     border-right: 1px solid #CCCCCC;
 }
 
+
+
+.main-section {
+    max-width: 1236px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+
+
 /* Popular Searches */
 .popular-searches {
     padding: 128px 0;
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1216px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,13 +399,8 @@ body {
 
 
 
-/* Recently wieved trips */
-.recently-trips {
-    max-width: 1236px;
-    padding-bottom: 100px;
-    margin: 0 auto;
-}
 
+/* Recently wieved trips */
 .main-section-wrapper {
     width: 100%;
     padding: 0 10px;
@@ -475,9 +532,8 @@ body {
 
 /* Most popular trips */
 .popular-trips {
-    max-width: 1440px;
-    padding-bottom: 100px;
-    margin: 0 auto;
+    padding: 64px 0 128px;
+    box-shadow: 0px 1px 24px 8px rgba(20, 20, 20, 0.08);
 }
 
 .main-section-wrapper {
@@ -486,11 +542,16 @@ body {
     flex-direction: column;
 }
 
+.popular-trips-wrapper {
+    max-width: 1236px;
+    margin: 0 auto;
+}
+
 .popular-trips-header-field {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-bottom: 80px;
+    flex-direction: column;
 }
 
 .popular-trips-header {
@@ -501,7 +562,7 @@ body {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-40%);
+    transform: translateY(-50%);
 }
 
 
@@ -511,14 +572,44 @@ body {
     cursor: pointer;
 }
 
+.popular-trips__list {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    overflow: auto;
+    padding: 70px 0;
+}
+
+.popular-trips__list::-webkit-scrollbar {
+    display: none;
+}
+
+.popular-trips-list__item {
+    width: 49%;
+    scroll-snap-align: start;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.trips-list-item-image {
+    border-radius: 48px;
+}
+
+.popular-trips-button {
+    width: 190px;
+    padding: 15px 64px;
+    border: 1px solid #404446;
+    border-radius: 48px;
+    background: transparent;
+    margin: 0 auto;
+}
+
 
 /* Why choose Travel Together */
 .choose-reason {
-    padding-bottom: 100px;
-    margin: 0 auto;
-    max-width: 1236px;
+    padding-top: 128px;
 }
-
 .choose-reason__list {
     display: flex;
     flex-direction: row;
@@ -557,8 +648,6 @@ body {
 /* What travellers are saying */
 .travellers-review {
     padding-bottom: 140px;
-    margin: 0 auto;
-    max-width: 1236px;
 }
 
 .travellers-review-wrapper {
@@ -620,8 +709,6 @@ body {
 
 /* Where are we go */
 .places {
-    max-width: 1236px;
-    margin: 0  auto;
     padding-bottom: 130px;
 }
 
@@ -658,8 +745,8 @@ body {
 
 /* Try our app */
 .travel-application {
-    max-width: 1216px;
-    margin: 0 auto 128px;
+    padding: 0;
+    margin-bottom: 128px;
     position: relative;
 }
 
@@ -706,8 +793,6 @@ body {
 
 /* Subscribe field */
 .subscription {
-    max-width: 1216px;
-    margin: 0 auto;
     padding-bottom: 64px;
 }
 
@@ -1074,6 +1159,22 @@ body {
     .black-insert {
         width: 450px;
     }
+    .popular-trips-list__item {
+        width: 100%;
+    }
+    .popular-trips-control {
+        position: static;
+        top: auto;
+        right: auto;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+        gap: 40px;
+    }
+    .popular-trips__list {
+        padding: 0 0 70px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -1121,9 +1222,6 @@ body {
 }
 
 @media screen and (max-width: 420px) {
-    .navigation {
-        height: 60px;
-    }
     .search__input {
         font-size: 12px;
         height: 30px;
