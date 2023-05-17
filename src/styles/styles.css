@@ -36,6 +36,7 @@ body {
     font-family: "Raleway";
     padding-top: 10px;
     font-size: 16px;
+    line-height: 160%;
 }
 
 .lock {
@@ -624,7 +625,6 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    line-height: 160%;
     border-radius: 64px;
     border: 1px solid #CECACA;
 }
@@ -694,13 +694,11 @@ body {
 
 .review-name {
     font-size: 20px;
-    line-height: 160%;
     padding: 8px 0 13px ;
 }
 
 .review-description {
     font-family: "RalewayR";
-    line-height: 160%;
 }
 
 
@@ -726,7 +724,6 @@ body {
 .places-name {
     position: absolute;
     color: #fff;
-    line-height: 160%;
     font-size: 48px;
     font-family: "RalewayB";
     top: 50%;
@@ -770,7 +767,6 @@ body {
 
 .travel-application-description {
     font-size: 16px;
-    line-height: 160%;
     font-family: "RalewayR";
     max-width: 593px;
     letter-spacing: 0.02em;
@@ -858,7 +854,6 @@ body {
     color: #fff;
     font-size: 24px;
     font-family: "RobotoB";
-    line-height: 160%;
     text-align: center;
 }
 
@@ -878,7 +873,6 @@ body {
     flex-direction: column;
     gap: 8px;
     font-family: "RalewayR";
-    line-height: 160%;
 }
 
 .footer-info-list__item a:hover {

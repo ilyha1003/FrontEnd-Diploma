@@ -1,0 +1,145 @@
+body {
+    line-height: 160%;
+}
+
+.about-section {
+    padding: 60px 10px 0;
+    max-width: 1236px;
+    display: flex;
+    gap: 32px;
+}
+
+.about-image {
+    width: 695px;
+    height: 534px;
+}
+
+.about-section-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
+    margin: 0;
+    text-align: left;
+    padding-bottom: 32px;
+    line-height: 120%;
+}
+
+.about-section-subtitle {
+    font-family: "RobotoB";
+    font-size: 24px;
+}
+
+.about-section-description {
+    font-family: "RalewayR";
+    max-width: 488px;
+    padding-top: 16px;
+}
+
+
+
+
+
+.choose-reason-list__item-short {
+    padding: 32px;
+}
+
+.adventure-begin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1236px;
+    padding: 0 10px;
+    margin: 0 auto 128px;
+}
+
+.adventure-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.adventure-content span {
+    text-align: center;
+    color: #fff;
+}
+
+.adventure-header {
+    font-family: "RobotoB";
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+.adventure-overhead {
+    font-family: "RobotoB";
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+.adventure-description {
+    font-family: "RalewayR";
+    font-size: 16px;
+    padding-bottom: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .about-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-image {
+        width: auto;
+        height: auto;
+    }
+    .about-header, .about-section-subtitle, .about-section-description {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .adventure-description {
+        padding-bottom: 10px;
+    }
+    .recently-trips-small-button {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .adventure-image {
+        display: none;
+    }
+    .adventure-content span {
+        color: #000;
+    }
+    .adventure-content {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .about-section {
+        padding-top: 20px;
+    }
+    .about-header {
+        font-size: 36px;
+    }
+}
