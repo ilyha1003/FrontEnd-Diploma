@@ -38,6 +38,11 @@ body {
 }
 
 
+.book-reason-image {
+    width: 592px;
+    height: 394px;
+}
+
 
 
 
@@ -67,6 +72,7 @@ body {
 .adventure-content span {
     text-align: center;
     color: #fff;
+    line-height: 160%;
 }
 
 .adventure-header {
@@ -87,7 +93,9 @@ body {
     padding-bottom: 64px;
 }
 
-
+.book-reason {
+    padding-top: 128px;
+}
 
 
 
@@ -102,12 +110,15 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .about-image {
+    .about-image, .book-reason-image {
         width: auto;
         height: auto;
     }
     .about-header, .about-section-subtitle, .about-section-description {
         text-align: center;
+    }
+    .book-reason-image {
+        order: 1;
     }
 }
 
