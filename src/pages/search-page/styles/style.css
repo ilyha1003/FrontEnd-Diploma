@@ -1,0 +1,17 @@
+
+.search-result-field {
+    border-radius: 64px;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+}
+
+.search-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-category-header {
+    color: #fff;
+}

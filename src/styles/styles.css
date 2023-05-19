@@ -34,7 +34,6 @@ a {
 
 body {
     font-family: "Raleway";
-    padding-top: 10px;
     font-size: 16px;
     line-height: 160%;
 }
@@ -376,6 +375,7 @@ body {
     margin: 0 auto;
     padding-bottom: 64px;
     text-align: center;
+    line-height: 120%;
 }
 
 .popular-searches__list {
@@ -1146,6 +1146,9 @@ body {
 }
 
 @media screen and (max-width: 620px) {
+    .desktop-navigation {
+        padding: 10px;
+    }
     .application-image {
         top: 50%;
         transform: translateY(-50%);

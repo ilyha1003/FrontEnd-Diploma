@@ -5,7 +5,7 @@ class fakeAPI {
             return resp.json();
         })
         .then(function(data) {
-            console.log(data)
+            console.log(data);
         })
     }
 
