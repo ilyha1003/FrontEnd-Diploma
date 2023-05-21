@@ -289,10 +289,11 @@ body {
 
 .hero-go-button {
     background-color: #BCFD49;
-    border: none;
     font-family: "Raleway";
-    cursor: pointer;
     height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-large-button {
@@ -429,7 +430,7 @@ body {
     transform: translateX(-50%);
 }
 
-.recently-trips__list {
+.recently-trips__list, .trips__list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -730,13 +731,12 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     white-space: nowrap;
+    line-height: 160%;
 }
 
 .places-item-more {
     cursor: pointer;
 }
-
-
 
 
 
@@ -836,6 +836,8 @@ body {
     width: 176px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -906,6 +908,10 @@ body {
     font-family: "Inter";
     font-size: 12px;
     text-align: center;
+}
+
+.centered {
+    margin: 0 auto;
 }
 
 

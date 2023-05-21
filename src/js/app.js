@@ -9,14 +9,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const reviewSlider = new ReviewSlider();
     const popularTripsSlider = new PopularTripsSlider();
     const navMenu = new BurgerMenu();
-    const tripsData = new fakeAPI();
-    
-    // let myRequest = new Request("http://127.0.0.1:5500/trips.json");
-    // fetch(myRequest)
-    //     .then(function(resp) {
-    //         return resp.json();
-    //     })
-    //     .then(function(data) {
-    //         console.log(data)
-    //     })
+
 })
