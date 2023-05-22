@@ -2,7 +2,9 @@
     {
         "title": "Scandinavia",
         "region": "Europe",
-        "previewImage": "../images/preview1.png",
+        "price": "1900$",
+        "previewImage": "https://psykologisk.no/wp-content/uploads/2021/06/Mental-helse-bedre-pa-sommeren.jpg.webp",
+        "previewDescription": "From colourful Copenhagen to sophisticated Stockholm, this trip gives you 12 days of pure Scandinavian magic.",
         "days": "12 Days",
         "places": "9 Places",
         "countries": "3 Countries",
@@ -77,7 +79,9 @@
     {
         "title": "Barcelona",
         "region": "Europe",
-        "previewImage": "../images/preview2.png",
+        "price": "2256$",
+        "previewImage": "https://zakordon.24tv.ua/resources/photos/news/202204/1939798.jpg?v=1661254556000&w=840&h=472&fit=cover&output=webp&q=50",
+        "previewDescription": "The one that gives you the best of Spanish culture, from beaches to incredible architecture.",
         "days": "11 Days",
         "places": "9 Places",
         "countries": "1 Country",
@@ -147,10 +151,12 @@
     {
         "title": "European Whirl",
         "region": "Europe",
-        "previewImage": "../images/popular-trips-1.webp",
+        "price": "2300$",
+        "previewImage": "https://s3-eu-central-1.amazonaws.com/glossika-blog/2021/09/Differentiating--22Essere-22-and--22Avere-22-in-Italian.jpg",
+        "previewDescription": "Dreaming of your European adventure, but doеn't know where to start? Welcome to the European Whirl.",
         "days": "18 Days",
         "places": "32 Places",
-        "countries": "10 Country",
+        "countries": "10 Countries",
         "groupSize": "Average 40 people",
         "accomodation": "17 nights in Hotels",
         "meals": "16 breakfasts, 15 dinners",
@@ -253,7 +259,9 @@
     {
         "title": "Greek Island Hopping",
         "region": "Europe",
-        "previewImage": "../images/popular-trips-2.webp",
+        "price": "1900$",
+        "previewImage": "https://www.mirf.ru/wp-content/uploads/2017/12/diving-1133506_1280-768x432.jpg",
+        "previewDescription": "Suitable for those who like to dive with scuba diving, the sea, underwater animals and the calming sea breeze.",
         "days": "11 Days",
         "places": "5 Places",
         "countries": "1 Country",
@@ -323,7 +331,9 @@
     {
         "title": "Norway Summer Adventure",
         "region": "Europe",
-        "previewImage": "../images/popular-trips-3.webp",
+        "price": "1400$",
+        "previewImage": "https://img.the-steppe.com/images/news/6045-bVvcCGL3.jpg",
+        "previewDescription": "Magnificent views of lakes and mountains will not leave indifferent even the most inveterate traveler.",
         "days": "9 Days",
         "places": "6 Places",
         "countries": "1 Country",
@@ -383,7 +393,9 @@
     {
         "title": "Romantic Paris Date",
         "region": "Europe",
-        "previewImage": "../images/popular-trips-4.webp",
+        "price": "1600$",
+        "previewImage": "https://img.freepik.com/premium-photo/lovers-in-paris-with-the-eiffel-tower-in-the-background_494619-1300.jpg?w=1380",
+        "previewDescription": "A romantic trip to Paris for newlyweds and those who have been married for a long time.",
         "days": "9 Days",
         "places": "7 Places",
         "countries": "1 Country",
@@ -443,7 +455,9 @@
     {
         "title": "Great Britain Adventure",
         "region": "Europe",
-        "previewImage": "../images/preview-london.webp",
+        "price": "2100$",
+        "previewImage": "https://imgproxy.natucate.com/zNWdfsJ8gOR1_hAw2ppCOBMMzVyN5KkDqMJ4eEDIye4/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvZDM0MTBkYTMtZWM4Yi00ODM5LTgzYzYtMWNkM2M3OGNlNDgzL2FlMDE2YWY1OTYtMTY3OTQ4Njg2OS9ncm9zc2JyaXRhbm5pZW4tdWstbGFlbmRlcmluZm9ybWF0aW9uZW4tYnJ1ZWNrZS10b3dlci1icmlkZ2UtbG9uZG9uLW5hdHVjYXRlLmpwZw",
+        "previewDescription": "For fans of Harry Potter and those who just dreamed of going to the center of Britain for a long time.",
         "days": "10 Days",
         "places": "8 Places",
         "countries": "1 Country",
@@ -513,7 +527,9 @@
     {
         "title": "San-Francisco Adventure",
         "region": "USA",
-        "previewImage": "../images/",
+        "price": "2000$",
+        "previewImage": "https://s.hdnux.com/photos/01/30/45/23/23221451/10/1200x0.jpg",
+        "previewDescription": "San Francisco is truly a disco city. Incredible urban infrastructure will not let you get bored throughout the trip.",
         "days": "12 Days",
         "places": "8 Places",
         "countries": "1 Country",
@@ -588,7 +604,9 @@
     {
         "title": "Yellowstone and Grand Tetons",
         "region": "USA",
-        "previewImage": "../images/",
+        "price": "995$",
+        "previewImage": "https://www.wellplannedjourney.com/wp-content/uploads/Grand-Teton-Reflection.jpg",
+        "previewDescription": "From the peaks of the Grand Tetons to Yellowstone, for 2 days of adventure in the world's oldest National Park.",
         "days": "11 Days",
         "places": "9 Places",
         "countries": "1 Country",
@@ -650,6 +668,938 @@
             },
             {
                 "dayOrder": "Day11",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Lost in New York",
+        "region": "USA",
+        "price": "1990$",
+        "previewImage": "https://s1.1zoom.ru/big0/513/USA_Houses_Statue_of_Liberty_New_York_City_515564_1280x850.jpg",
+        "previewDescription": "Who has long wanted to visit the secret center of the United States and look at the Statue of Liberty from an arm's length.",
+        "days": "10 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 35 people",
+        "accomodation": "9 nights in Hotels",
+        "meals": "8 breakfasts, 6 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day9",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day10",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Washington city",
+        "region": "USA",
+        "price": "1860$",
+        "previewImage": "https://pronewyork.org/wp-content/uploads/2014/03/e-kskursiya-v-vashington-s-otpravleniem-iz-n-yu-jorka-1.png",
+        "previewDescription": "The incredible size of the buildings of the US capital will not leave indifferent even the most inveterate traveler.",
+        "days": "8 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 40 people",
+        "accomodation": "6 nights in Hotels",
+        "meals": "5 breakfasts, 2 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Sleepless in Seattle",
+        "region": "USA",
+        "price": "1420$",
+        "previewImage": "https://breeze.ru/files/images/port_seattle_1.jpeg",
+        "previewDescription": "The most amazing city in the USA. Some say that Seattle is a city of lunatics, others consider it a haven for billionaires.",
+        "days": "9 Days",
+        "places": "5 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 20 people",
+        "accomodation": "6 nights in Hotels",
+        "meals": "5 breakfasts, 2 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day9",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Las Vegas Strip",
+        "region": "USA",
+        "price": "1990$",
+        "previewImage": "https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Las%20Vegas_6.jpg",
+        "previewDescription": "Casino goers and those who aren't shy about spending half of their late grandmother's inheritance in one night will love this.",
+        "days": "8 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 30 people",
+        "accomodation": "6 nights in Hotels",
+        "meals": "6 breakfasts, 5 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Santa Barbara",
+        "region": "USA",
+        "price": "1680$",
+        "previewImage": "https://s15.stc.yc.kpcdn.net/share/i/12/6282690/wr-960.webp",
+        "previewDescription": "The incredible size of the buildings of the US capital will not leave indifferent even the most inveterate traveler.",
+        "days": "7 Days",
+        "places": "4 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 35 people",
+        "accomodation": "4 nights in Hotels",
+        "meals": "5 breakfasts, 3 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "title": "Mexico adventures",
+        "region": "Latin America",
+        "price": "1820$",
+        "previewImage": "https://ticketforplane.ru/sites/default/files/Avtor/images/novij-god_0.jpg",
+        "previewDescription": "If you did not know how to start your journey through Latin America, then this tour is definitely for you.",
+        "days": "7 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 30 people",
+        "accomodation": "4 nights in Hotels",
+        "meals": "5 breakfasts, 3 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Cuba",
+        "region": "Latin America",
+        "price": "2400$",
+        "previewImage": "https://verblud-travel.ru/wp-content/uploads/2022/02/cuba_havana.jpg",
+        "previewDescription": "This particular trip is dedicated to lovers of Cuban seas, cigars and incredible emotions that you will get in the process.",
+        "days": "12 Days",
+        "places": "9 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 40 people",
+        "accomodation": "10 nights in Hotels",
+        "meals": "9 breakfasts, 8 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day9",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day10",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day11",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day12",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Rio de Janeiro city",
+        "region": "Latin America",
+        "price": "2050$",
+        "previewImage": "https://spadilo.ru/wp-content/uploads/2018/06/%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4-%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D0%B8%D1%8F.jpg",
+        "previewDescription": "If you did not know how to start your journey through Latin America, then this tour is definitely for you.",
+        "days": "7 Days",
+        "places": "5 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 20 people",
+        "accomodation": "4 nights in Hotels",
+        "meals": "4 breakfasts, 2 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Mysterious Machu Picchu",
+        "region": "Latin America",
+        "price": "1730$",
+        "previewImage": "https://www.svoiludi.ru/images/tb/10370/tury-v-machu-pikchu-16663836866026_w687h357.jpg",
+        "previewDescription": "Mystical mysteries of ancient civilization and architecture that will shock even the most inveterate traveler.",
+        "days": "10 Days",
+        "places": "9 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 40 people",
+        "accomodation": "6 nights in Hotels",
+        "meals": "7 breakfasts, 7 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day9",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day10",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Easter Island",
+        "region": "Latin America",
+        "price": "1670$",
+        "previewImage": "https://modernfarmer.com/wp-content/uploads/2019/12/shutterstock_1564653973.jpg",
+        "previewDescription": "Fans of the movie «Night at the Museum» will definitely enjoy a trip to this magnificent island.",
+        "days": "8 Days",
+        "places": "5 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 30 people",
+        "accomodation": "7 nights in Hotels",
+        "meals": "5 breakfasts, 4 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Mendoza adventures",
+        "region": "Latin America",
+        "price": "1820$",
+        "previewImage": "https://arminastravel.com/wp-content/uploads/2020/03/Mendoza-7.jpg",
+        "previewDescription": "The architecture of this country will definitely be deposited in your memory for many years.",
+        "days": "9 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 15 people",
+        "accomodation": "8 nights in Hotels",
+        "meals": "7 breakfasts, 6 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day9",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Lake Titicaca, Bolivia",
+        "region": "Latin America",
+        "price": "1820$",
+        "previewImage": "https://blog.ostrovok.ru/wp-content/uploads/2012/03/shutterstock_158988716.jpg",
+        "previewDescription": "Incredible views, mountainous country and boat trips are all you need to know about this trip. Feel free to go!",
+        "days": "7 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 30 people",
+        "accomodation": "4 nights in Hotels",
+        "meals": "5 breakfasts, 3 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "title": "St. Petersburg secrets",
+        "region": "Russia",
+        "price": "600$",
+        "previewImage": "https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2022-06/DJI_0004.jpg.webp?itok=lP-Mz3-J",
+        "previewDescription": "The architecture of this country will definitely be deposited in your memory for many years.",
+        "days": "6 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 35 people",
+        "accomodation": "5 nights in Hotels",
+        "meals": "4 breakfasts, 3 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Moscow city",
+        "region": "Russia",
+        "price": "700$",
+        "previewImage": "https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner__blog_post_banner/public/2023-02/district-moscow.jpg",
+        "previewDescription": "The architecture of this country will definitely be deposited in your memory for many years.",
+        "days": "6 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 25 people",
+        "accomodation": "8 nights in Hotels",
+        "meals": "4 breakfasts, 4 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Sochi adventures",
+        "region": "Russia",
+        "price": "1150$",
+        "previewImage": "https://cdn.sanatory.ru/fill/1200/600/sm/1/aHR0cHM6Ly8yMDk2/MjUuc2VsY2RuLnJ1/L3Nrb19hdHRhY2ht/ZW50cy9ibG9nL3Bh/Z2UvNjA4YmIwODY3/NDlhMTMwMDA3YmI4/YTBiL2F0dGFjaG1l/bnQvYWE2ODljOGRh/Yzc2NjBlOWQyZDc4/ZWRlMjBlMjcxN2Eu/anBn.jpg",
+        "previewDescription": "The architecture of this country will definitely be deposited in your memory for many years.",
+        "days": "9 Days",
+        "places": "6 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 30 people",
+        "accomodation": "8 nights in Hotels",
+        "meals": "7 breakfasts, 6 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day8",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day9",
+                "dayTitle": "End point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            }
+        ]
+    },
+    {
+        "title": "Baikal adventures",
+        "region": "Russia",
+        "price": "850$",
+        "previewImage": "https://ecologyofrussia.ru/upload/iblock/862/4067fpt21rgngjb1zou013oc8etx0pme/pexels_sergei_altushkin_8629965.jpg",
+        "previewDescription": "The architecture of this country will definitely be deposited in your memory for many years.",
+        "days": "7 Days",
+        "places": "4 Places",
+        "countries": "1 Country",
+        "groupSize": "Average 25 people",
+        "accomodation": "8 nights in Hotels",
+        "meals": "6 breakfasts, 3 dinners",
+        "team": "Trips expert, local guides",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magnam sint explicabo, nisi voluptatum, incidunt dolore aperiam quod qui minima veniam asperiores? Sequi doloribus eum suscipit quis magnam reprehenderit excepturi dolorem, earum ducimus atque nam nesciunt harum quo consequuntur quidem pariatur voluptatum quisquam dolor asperiores a libero voluptas architecto alias. Possimus vel nulla tenetur alias?",
+        "daysSchedule": [
+            {
+                "dayOrder": "Day1",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day2",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day3",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day4",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day5",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day6",
+                "dayTitle": "Intermediate point",
+                "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
+            },
+            {
+                "dayOrder": "Day7",
                 "dayTitle": "End point",
                 "dayDescription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, possimus quis, porro vel repudiandae aliquid a mollitia, fugit atque dignissimos temporibus impedit accusantium sed dolores excepturi at neque nulla voluptas. Harum nobis mollitia a temporibus distinctio corrupti, porro laboriosam voluptatum voluptate asperiores ullam vel tempore sint provident doloribus quidem repellendus!"
             }

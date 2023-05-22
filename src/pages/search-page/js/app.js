@@ -1,4 +1,6 @@
-import getData from "../../../js/fakeAPI.js";
+import { getMatchedData } from "../../../js/fakeAPI.js";
+import { getAllTrips } from "../../../js/fakeAPI.js";
+import { errorImage } from "./list.js";
 import { loaderHTML } from "./loader.js"
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -6,6 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const countryInput = document.querySelector('.country-input');
     const tripsField = document.querySelector('.trips-wrapper');
 
+    regionInput.focus();
+
     tripsField.innerHTML = loaderHTML;
-    getData();
+    if(regionInput.value === '' && countryInput.value === '') {
+        getAllTrips();
+    }
+    
+    regionInput.oninput = () => {
+        tripsField.innerHTML = loaderHTML;
+        errorImage('none');
+        getMatchedData();
+    }
 })
