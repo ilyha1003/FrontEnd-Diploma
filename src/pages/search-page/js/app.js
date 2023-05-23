@@ -19,5 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
         tripsField.innerHTML = loaderHTML;
         errorImage('none');
         getMatchedData();
+    };
+
+    countryInput.oninput = () => {
+        tripsField.innerHTML = loaderHTML;
+        errorImage('none');
+        getMatchedData();
     }
 })

@@ -104,28 +104,100 @@ const fillTripsList = (apiData, regionInputValue, countryInputValue) => {
     tripsList.classList.add('trips__list');
     tripsList.classList.add('json-trips__list');
 
-    if(regionInputValue) {
-        apiData.forEach((el) => {
-            if(regionInputValue.toLowerCase() === el.region.toLowerCase()) {
-                tripsField.innerHTML = '';
-                tripsList.append(listElementCreation(el));
-                tripsField.append(tripsList);
-                errorImage('none');
-            } else {
-                if(!tripsList.children.length) {
+    // if(regionInputValue) {
+    //     apiData.forEach((el) => {
+    //         if(regionInputValue.toLowerCase() === el.region.toLowerCase()) {
+    //             tripsField.innerHTML = '';
+    //             tripsList.append(listElementCreation(el));
+    //             tripsField.append(tripsList);
+    //             errorImage('none');
+    //         } else {
+    //             if(!tripsList.children.length) {
+    //                 tripsField.innerHTML = '';
+    //                 tripsField.append(errorField());
+    //                 errorImage('block');
+    //             }
+    //         }
+    //     });
+    //     return;
+    // }
+
+    // if(countryInputValue) {
+    //     apiData.forEach((el) => {
+    //         if(el.keyword.includes(countryInputValue.toLowerCase())) {
+    //             tripsField.innerHTML = '';
+    //             tripsList.append(listElementCreation(el));
+    //             tripsField.append(tripsList);
+    //             errorImage('none');
+    //         } else {
+    //             if(!tripsList.children.length) {
+    //                 tripsField.innerHTML = '';
+    //                 tripsField.append(errorField());
+    //                 errorImage('block');
+    //             }
+    //         }
+    //     });
+    //     return;
+    // } 
+
+    if(regionInputValue || countryInputValue) {
+        if(regionInputValue && !countryInputValue) {
+            apiData.forEach((el) => {
+                if(regionInputValue.toLowerCase() === el.region.toLowerCase()) {
                     tripsField.innerHTML = '';
-                    tripsField.append(errorField());
-                    errorImage('block');
+                    tripsList.append(listElementCreation(el));
+                    tripsField.append(tripsList);
+                    errorImage('none');
+                } else {
+                    if(!tripsList.children.length) {
+                        tripsField.innerHTML = '';
+                        tripsField.append(errorField());
+                        errorImage('block');
+                    }
                 }
-            }
-        });
+            });
+        } 
+
+        if(countryInputValue && !regionInputValue) {
+            apiData.forEach((el) => {
+                if(el.keyword.includes(countryInputValue.toLowerCase())) {
+                    tripsField.innerHTML = '';
+                    tripsList.append(listElementCreation(el));
+                    tripsField.append(tripsList);
+                    errorImage('none');
+                } else {
+                    if(!tripsList.children.length) {
+                        tripsField.innerHTML = '';
+                        tripsField.append(errorField());
+                        errorImage('block');
+                    }
+                }
+            })
+        }
+
+        if(regionInputValue && countryInputValue) {
+            apiData.forEach((el) => {
+                if(regionInputValue.toLowerCase() === el.region.toLowerCase() && el.keyword.includes(countryInputValue.toLowerCase())) {
+                    tripsField.innerHTML = '';
+                    tripsList.append(listElementCreation(el));
+                    tripsField.append(tripsList);
+                    errorImage('none');
+                } else {
+                    if(!tripsList.children.length) {
+                        tripsField.innerHTML = '';
+                        tripsField.append(errorField());
+                        errorImage('block');
+                    }
+                }
+            })
+        }
     } else {
+        tripsField.innerHTML = '';
         apiData.forEach((el) => {
             tripsList.append(listElementCreation(el));
-            tripsField.innerHTML = '';
-            tripsField.append(tripsList);
             errorImage('none');
-        })
+        });
+        tripsField.append(tripsList);
     }
 }
 
