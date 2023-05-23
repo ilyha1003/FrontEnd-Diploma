@@ -31,6 +31,5 @@ const getTrips = async () => {
 }
 
 export const getMatchedData = debounce(getTrips, 500);
-export const getAllTrips = debounce(getTrips, 500);
 
 

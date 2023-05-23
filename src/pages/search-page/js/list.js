@@ -1,4 +1,6 @@
-const elementCreation = (elementName, className, additionalClassName) => {
+import { showTripDetails } from "./popUpDetails";
+
+export const elementCreation = (elementName, className, additionalClassName) => {
     const element = document.createElement(elementName);
     if(className) {
         element.classList.add(className);
@@ -80,6 +82,9 @@ const listElementCreation = (el) => {
 
     const tripDetails = elementCreation('a', 'hero-go-button', 'recently-trips-small-button');
     tripDetails.innerText = 'View details';
+    tripDetails.addEventListener('click', () => {
+        showTripDetails(el.previewImage, el.title, el.oldprice, el.price, el.days, el.accomodation, el.meals, el.groupSize, el.team, el.description, el.daysSchedule);
+    });
 
     listElement.append(tripsPreview, tripsContent, tripDetails);
 
@@ -103,42 +108,6 @@ const fillTripsList = (apiData, regionInputValue, countryInputValue) => {
     const tripsList = document.createElement('ul');
     tripsList.classList.add('trips__list');
     tripsList.classList.add('json-trips__list');
-
-    // if(regionInputValue) {
-    //     apiData.forEach((el) => {
-    //         if(regionInputValue.toLowerCase() === el.region.toLowerCase()) {
-    //             tripsField.innerHTML = '';
-    //             tripsList.append(listElementCreation(el));
-    //             tripsField.append(tripsList);
-    //             errorImage('none');
-    //         } else {
-    //             if(!tripsList.children.length) {
-    //                 tripsField.innerHTML = '';
-    //                 tripsField.append(errorField());
-    //                 errorImage('block');
-    //             }
-    //         }
-    //     });
-    //     return;
-    // }
-
-    // if(countryInputValue) {
-    //     apiData.forEach((el) => {
-    //         if(el.keyword.includes(countryInputValue.toLowerCase())) {
-    //             tripsField.innerHTML = '';
-    //             tripsList.append(listElementCreation(el));
-    //             tripsField.append(tripsList);
-    //             errorImage('none');
-    //         } else {
-    //             if(!tripsList.children.length) {
-    //                 tripsField.innerHTML = '';
-    //                 tripsField.append(errorField());
-    //                 errorImage('block');
-    //             }
-    //         }
-    //     });
-    //     return;
-    // } 
 
     if(regionInputValue || countryInputValue) {
         if(regionInputValue && !countryInputValue) {

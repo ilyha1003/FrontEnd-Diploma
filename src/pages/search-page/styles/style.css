@@ -97,8 +97,136 @@
     padding: 0;
 }
 
+.recently-trips-small-button {
+    cursor: pointer;
+}
 
 
+
+/* Trip description */
+.popup-wrapper{
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-field {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    max-height: 100vh;
+    overflow-y: scroll;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+
+.popup-field::-webkit-scrollbar {
+    width: 0;
+}
+
+.button {
+    width: 3vw;
+    height: 3vw;
+    background: #b9b9b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 50%;
+    height: 10%;
+    background: #000;
+    position: absolute;
+}
+
+.rotate-plus {
+    transform: rotate(45deg);
+}
+
+.rotate-minus {
+    transform: rotate(-45deg);
+}
+
+
+
+.trip-description-header-field {
+    position: relative;
+}
+
+.trip-description-header-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-description-header-image {
+    width: 100%;
+    max-height: 527px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.trip-description-header {
+    font-family: "RobotoB";
+    font-size: 96px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    line-height: normal;
+}
+
+.trip-description-rating-number {
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.trip-descroption-price {
+    font-family: "RobotoB";
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #000;
+    padding-bottom: 10px;
+}
+
+.trip-description-price-old {
+    font-family: "RobotoR";
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button:hover {
+    background: #e0e0e0;
+}
 
 @media screen and (max-width: 1050px) {
     .search-result-field {
