@@ -196,7 +196,7 @@
     text-shadow: 2px 2px 2px #000;
 }
 
-.trip-descroption-price {
+.trip-description-price {
     font-family: "RobotoB";
     color: #fff;
     font-size: 24px;
@@ -214,12 +214,151 @@
 
 
 
+.trip-details-section {
+    padding-top: 70px;
+}
+
+.trip-details-wrapper {
+    display: flex;
+    padding: 0 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.trip-details-content-title {
+    font-family: "RobotoB";
+    font-size: 40px;
+    line-height: 120%;
+    padding-bottom: 40px;
+    max-width: 520px;
+}
+
+.trip-details__list {
+    display: flex;
+    max-width: 480px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+.trip-details-list-element {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-details-list-element-header {
+    display: flex;
+    height: 40px;
+    gap: 8px;
+    align-items: center;
+}
+
+.trip-details-list-element-title {
+    font-family: "RobotoBlack";
+}
+
+.trip-details-list-element-description {
+    font-family: "RobotoR";
+}
+
+.trip-details-image-field {
+    max-width: 690px;
+    max-height: 900px;
+}
+
+.trip-details-image-field img {
+    border-radius: 64px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.trip-details-main-description {
+    max-width: 520px;
+    font-family: "RalewayR";
+}
 
 
 
+.trip-schedule-section {
+    background: #F2F1F1;
+    width: 100%;
+    padding: 64px 0 20px;
+}
 
+.trip-schedule-wrapper {
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
+.trip-schedule__list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
 
+.trip-schedule-list-element {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.trip-schedule-header-wrapper {
+    box-shadow: 0px 2px 34px -12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    gap: 24px;
+    position: relative;
+    align-items: center;
+    border-radius: 80px;
+    background: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.day-order {
+    background: #BCFD49;
+    color: #000;
+    font-family: "RalewayBold";
+    padding: 30px 66px;
+    border-radius: 80px;
+}
+
+.trip-schedule-list-element-title {
+    font-family: "RalewayBold";
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.arrow-field {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    display: flex;
+}
+
+.trip-schedule-list-element-description {
+    font-family: "RalewayR";
+    line-height: 160%;
+    border-radius: 0px 0px 64px 64px;
+    background: #fff;
+    padding: 60px 40px;
+    position: relative;
+    display: none;
+    top: -40px;
+}
+
+.active {
+    display: flex;
+}
 
 
 
@@ -228,10 +367,29 @@
     background: #e0e0e0;
 }
 
+@media screen and (max-width: 1240px) {
+    .trip-details-image-field {
+        max-width: 490px;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .search-result-field {
         padding: 64px 20px;
     }
+}
+
+@media screen and (max-width: 1020px) {
+    .trip-details-image-field {
+        display: none;
+    }
+    .trip-details__list {
+        justify-content: center;
+    }
+    .trip-details-content-title, .trip-details-main-description{
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 1010px) {
@@ -246,13 +404,55 @@
     }
 }
 
+@media screen and (max-width: 755px) {
+    .search-category-input {
+        width: 250px;
+    }
+    .trip-description-header {
+        font-size: 48px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .search-result-inputs-field {
         flex-direction: column;
         align-items: center;
         gap: 25px;
     }
-    .search-category-input {
-        width: 250px;
+}
+
+@media screen and (max-width: 580px) {
+    .day-order {
+        padding: 15px 30px;
+        font-size: 12px;
+    }
+    .trip-schedule-list-element-title {
+        font-size: 18px;
+    }
+    .arrow-field {
+        right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .trip-description-header {
+        font-size: 28px;
+    }
+    .trip-description-price {
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    .trip-description-rating-number {
+        font-size: 24px;
+    }
+    .recently-trips-rating-field {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .trip-schedule-header-wrapper {
+        gap: 8px;
     }
 }

@@ -83,7 +83,7 @@ const listElementCreation = (el) => {
     const tripDetails = elementCreation('a', 'hero-go-button', 'recently-trips-small-button');
     tripDetails.innerText = 'View details';
     tripDetails.addEventListener('click', () => {
-        showTripDetails(el.previewImage, el.title, el.oldprice, el.price, el.days, el.accomodation, el.meals, el.groupSize, el.team, el.description, el.daysSchedule);
+        showTripDetails(el.previewImage, el.previewDescription, el.title, el.oldprice, el.price, el.days, el.countries, el.accomodation, el.meals, el.groupSize, el.team, el.description, el.detailsImage, el.daysSchedule);
     });
 
     listElement.append(tripsPreview, tripsContent, tripDetails);
