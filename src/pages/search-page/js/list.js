@@ -170,4 +170,36 @@ const fillTripsList = (apiData, regionInputValue, countryInputValue) => {
     }
 }
 
+export const fillRecentlyList = (apiData, wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, className1, className2) => {
+    apiData.forEach((el) => {
+        if(el.title === tripName1) {
+            wrapper.append(listElementCreation(el));
+        }
+    });
+    apiData.forEach((el) => {
+        if(el.title === tripName2) {
+            wrapper.append(listElementCreation(el));
+        }
+    });
+    apiData.forEach((el) => {
+        if(el.title === tripName3) {
+            wrapper.append(listElementCreation(el));
+        }
+    });
+    if(tripName4) {
+        apiData.forEach((el) => {
+            if(el.title === tripName4) {
+                wrapper.append(listElementCreation(el, className1, className2));
+            }
+        });
+    };
+    if(tripName5) {
+        apiData.forEach((el) => {
+            if(el.title === tripName5) {
+                wrapper.append(listElementCreation(el, className1, className2));
+            }
+        });
+    };
+}
+
 export default fillTripsList;

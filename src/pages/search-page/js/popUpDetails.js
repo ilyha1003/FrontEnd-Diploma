@@ -157,7 +157,6 @@ const daysScheduleListElementCreation = (el) => {
             </svg>`;
             counter = 0;
         }
-        
     })
 
     return listElement;

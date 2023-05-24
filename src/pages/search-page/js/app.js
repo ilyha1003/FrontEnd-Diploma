@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetBtn = document.querySelector('.reset-button');
 
     regionInput.focus();
-
     tripsField.innerHTML = loaderHTML;
+    
     if(regionInput.value === '' && countryInput.value === '') {
         getMatchedData();
     };

@@ -16,7 +16,9 @@ class BurgerMenu {
             this.secondLayer.classList.toggle('mobile-position-hidden');
             this.thirdLayer.classList.toggle('mobile-position-reverse');
             this.burgerMenu.classList.toggle('mobile-active');
-            this.searchField.classList.toggle('hidden');
+            if(this.searchField) {
+                this.searchField.classList.toggle('hidden');
+            }
         })
     }
 }
