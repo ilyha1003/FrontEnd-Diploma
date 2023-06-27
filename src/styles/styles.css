@@ -463,6 +463,8 @@ body {
 .recently-trips-preview {
     position: relative;
     margin-bottom: 24px;
+    width: 100%;
+    max-width:none !important;
 }
 
 .recently-trips-preview-price {
@@ -609,7 +611,10 @@ body {
 }
 
 .trips-list-item-image {
+    height: 100%;
+    width: 100%;
     border-radius: 48px;
+    object-fit: cover;
 }
 
 .popular-trips-button {

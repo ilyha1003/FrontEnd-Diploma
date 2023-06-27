@@ -5,35 +5,38 @@ import { loaderHTML } from "./loader.js"
 document.addEventListener('DOMContentLoaded', () => {
     const regionInput = document.querySelector('.region-input');
     const countryInput = document.querySelector('.country-input');
+    const dateInput = document.querySelector('.date-input');
+    dateInput.setAttribute('placeholder', `${new Date().toLocaleDateString('ru-RU')}`);
     const tripsField = document.querySelector('.trips-wrapper');
     const resetBtn = document.querySelector('.reset-button');
 
     regionInput.focus();
     tripsField.innerHTML = loaderHTML;
+
+    const searching = () => {
+        tripsField.innerHTML = loaderHTML;
+        errorImage('none');
+        getMatchedData();
+    }
     
     if(regionInput.value === '' && countryInput.value === '') {
         getMatchedData();
     };
     
     regionInput.oninput = () => {
-        tripsField.innerHTML = loaderHTML;
-        errorImage('none');
-        getMatchedData();
+        searching();
     };
 
     countryInput.oninput = () => {
-        tripsField.innerHTML = loaderHTML;
-        errorImage('none');
-        getMatchedData();
+        searching();
     };
 
     resetBtn.addEventListener('click', () => {
         if(regionInput.value || countryInput.value) {
-            tripsField.innerHTML = loaderHTML;
-            errorImage('none');
+            searching();
             regionInput.value = '';
             countryInput.value = '';
-            getMatchedData();
         }
     })
-})
+});
+

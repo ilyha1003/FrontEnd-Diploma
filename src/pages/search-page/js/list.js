@@ -1,21 +1,24 @@
 import { showTripDetails } from "./popUpDetails";
 
-export const elementCreation = (elementName, className, additionalClassName) => {
+export const elementCreation = (elementName, className, className1, className2) => {
     const element = document.createElement(elementName);
     if(className) {
         element.classList.add(className);
     }
-    if(additionalClassName) {
-        element.classList.add(additionalClassName);
+    if(className1) {
+        element.classList.add(className1);
+    }
+    if(className2) {
+        element.classList.add(className2);
     }
 
     return element;
 }
 
-const listElementCreation = (el) => {
-    const listElement = elementCreation('li', 'trips-list__item');
+const listElementCreation = (el, additionalListElementClassName, additionalImageWrapperClassName) => {
+    const listElement = elementCreation('li', 'trips-list__item', additionalListElementClassName);
 
-    const tripsPreview = elementCreation('div', 'recently-trips-preview', 'trip-preview-field');
+    const tripsPreview = elementCreation('div', 'trip-preview-field', 'recently-trips-preview', additionalImageWrapperClassName);
 
     const previewImage = elementCreation('img', 'trip-preview-image');
     previewImage.src = el.previewImage;
@@ -103,7 +106,7 @@ export const errorImage = (visibilityStyle) => {
     errorImage.style.display = visibilityStyle;
 }
 
-const fillTripsList = (apiData, regionInputValue, countryInputValue) => {
+export const fillTripsList = (apiData, regionInputValue, countryInputValue) => {
     const tripsField = document.querySelector('.trips-wrapper');
     const tripsList = document.createElement('ul');
     tripsList.classList.add('trips__list');
@@ -170,36 +173,25 @@ const fillTripsList = (apiData, regionInputValue, countryInputValue) => {
     }
 }
 
-export const fillRecentlyList = (apiData, wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, className1, className2) => {
+const listAppending = (apiData, wrapper, tripName, additionalListElementClassName, additionalImageWrapperClassName) => {
     apiData.forEach((el) => {
-        if(el.title === tripName1) {
-            wrapper.append(listElementCreation(el));
+        if(el.title === tripName) {
+            wrapper.append(listElementCreation(el, additionalListElementClassName, additionalImageWrapperClassName));
         }
-    });
-    apiData.forEach((el) => {
-        if(el.title === tripName2) {
-            wrapper.append(listElementCreation(el));
-        }
-    });
-    apiData.forEach((el) => {
-        if(el.title === tripName3) {
-            wrapper.append(listElementCreation(el));
-        }
-    });
-    if(tripName4) {
-        apiData.forEach((el) => {
-            if(el.title === tripName4) {
-                wrapper.append(listElementCreation(el, className1, className2));
-            }
-        });
-    };
-    if(tripName5) {
-        apiData.forEach((el) => {
-            if(el.title === tripName5) {
-                wrapper.append(listElementCreation(el, className1, className2));
-            }
-        });
-    };
+    })
 }
 
-export default fillTripsList;
+export const fillRecentlyList = (apiData, wrapper, tripName1, tripName2, tripName3) => {
+    listAppending(apiData, wrapper, tripName1);
+    listAppending(apiData, wrapper, tripName2);
+    listAppending(apiData, wrapper, tripName3);
+}
+
+
+export const fillPopularList = (apiData, wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, additionalListElementClassName, additionalImageWrapperClassName) => {
+    listAppending(apiData, wrapper, tripName1, additionalListElementClassName, additionalImageWrapperClassName);
+    listAppending(apiData, wrapper, tripName2, additionalListElementClassName, additionalImageWrapperClassName);
+    listAppending(apiData, wrapper, tripName3, additionalListElementClassName, additionalImageWrapperClassName);
+    listAppending(apiData, wrapper, tripName4, additionalListElementClassName, additionalImageWrapperClassName);
+    listAppending(apiData, wrapper, tripName5, additionalListElementClassName, additionalImageWrapperClassName);
+}

@@ -1,4 +1,4 @@
-import fillTripsList, { fillRecentlyList } from "../pages/search-page/js/list";
+import { fillRecentlyList, fillTripsList, fillPopularList } from "../pages/search-page/js/list";
 
 const regionInput = document.querySelector('.region-input');
 const countryInput = document.querySelector('.country-input');
@@ -43,7 +43,21 @@ export const getInfo = async (wrapper, tripName1, tripName2, tripName3) => {
     }  
 }
 
+export const getPopularTrips = async (wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, additionalListElementClassName, additionalImageWrapperClassName) => {
+    try {
+        const data = await fetch(`http://127.0.0.1:5500/trips.json`);
+        const json = await data.json();
+
+        fillPopularList(json, wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, additionalListElementClassName, additionalImageWrapperClassName);
+
+        return json;
+    } catch(err) {
+        console.log(err);
+    }  
+}
+
 export const getMatchedData = debounce(getTrips, 500);
 export const getData = debounce(getInfo, 500);
+export const getMatchedPopularTrips = debounce(getPopularTrips, 500);
 
 

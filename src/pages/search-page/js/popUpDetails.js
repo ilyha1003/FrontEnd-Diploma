@@ -1,6 +1,5 @@
 import { elementCreation } from "./list";
 
-
 const body = document.querySelector('body');
 const popUpWrapper = document.querySelector('.popup-wrapper');
 const popUpField = document.querySelector('.popup-field');
@@ -9,6 +8,7 @@ const button = document.querySelector('.button');
 export const showTripDetails = (previewImage, previewDescription, title, oldprice, price, days, countries, accomodation, meals, groupSize, team, description, detailsImage, daysSchedule) => {
     popUpWrapper.style.display = 'flex';
     body.style.overflow = 'hidden';
+    popUpWrapper.scrollTo(0, 0);
 
     const header = elementCreation('div', 'trip-description-header-field');
     const headerImage = elementCreation('img', 'trip-description-header-image');
@@ -36,7 +36,6 @@ export const showTripDetails = (previewImage, previewDescription, title, oldpric
 
     headerContent.append(headerTitle, ratingField, priceOld, priceNew);
     header.append(headerImage, headerContent);
-
 
     const tripDetailsSection = elementCreation('section', 'main-section', 'trip-details-section');
     const tripDetailsWrapper = elementCreation('div', 'trip-details-wrapper');
@@ -96,7 +95,6 @@ export const showTripDetails = (previewImage, previewDescription, title, oldpric
     contentWrapper.append(tripDetailsContentTitle, tripDetailsList, tripDetailsMainDescription)
     tripDetailsWrapper.append(contentWrapper, tripDetailsImageField);
     tripDetailsSection.append(tripDetailsWrapper);
-
 
     const tripScheduleSection = elementCreation('section', 'trip-schedule-section');
     const tripScheduleWrapper = elementCreation('div', 'trip-schedule-wrapper');
