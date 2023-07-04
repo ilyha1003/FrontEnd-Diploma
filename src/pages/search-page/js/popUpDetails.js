@@ -107,7 +107,59 @@ export const showTripDetails = (previewImage, previewDescription, title, oldpric
     tripScheduleWrapper.append(tripScheduleList);
     tripScheduleSection.append(tripScheduleWrapper);
 
-    popUpField.append(header, tripDetailsSection, tripScheduleSection);
+    const confidenceSection = elementCreation('section', 'confidence-section');
+    const confidenceWrapper = elementCreation('div', 'confidence-wrapper');
+    const confidenceHeader = elementCreation('span', 'confidence-header');
+    confidenceHeader.innerText = `Book with confidence`;
+    const confidenceDescription = elementCreation('span', 'confidence-description');
+    confidenceDescription.innerText = `Our thoughtful team of knowledgeable experts are here to take care of every need, from the second you contact us to when you return`;
+    const confidenceList = elementCreation('ul', 'confidence__list');
+
+    const depositSvgBlack = `<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" fill="none">
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#101010"/>
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#000" fill-opacity=".2"/>
+    <path fill="#BCFD49" d="M80.7 49.7H78V47a8 8 0 0 0-8-8H43.3a8 8 0 0 0-8 8v32a8 8 0 0 0 8 8h37.4a8 8 0 0 0 8-8V57.7a8 8 0 0 0-8-8Zm-37.4-5.4H70a2.7 2.7 0 0 1 2.7 2.7v2.7H43.3a2.7 2.7 0 0 1 0-5.4Zm40 26.7h-2.6a2.7 2.7 0 0 1 0-5.3h2.6V71Zm0-10.7h-2.6a8 8 0 0 0 0 16h2.6V79a2.7 2.7 0 0 1-2.6 2.7H43.3a2.7 2.7 0 0 1-2.6-2.7V54.5a8 8 0 0 0 2.6.5h37.4a2.7 2.7 0 0 1 2.6 2.7v2.6Z"/>
+    </svg>`;
+    const transportationSvgBlack = `<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" fill="none">
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#101010"/>
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#000" fill-opacity=".2"/>
+    <path fill="#BCFD49" d="M80.3 35.3h-32a8 8 0 0 0-8 8v32a8 8 0 0 0 5.4 7.6V86a2.7 2.7 0 1 0 5.3 0v-2.7h26.7V86a2.7 2.7 0 1 0 5.3 0v-3.1a8 8 0 0 0 5.3-7.6v-32a8 8 0 0 0-8-8Zm-34.6 16h16V62h-16V51.3Zm37.3 24a2.7 2.7 0 0 1-2.7 2.7h-32a2.7 2.7 0 0 1-2.6-2.7v-8H83v8ZM83 62H67V51.3h16V62Zm0-16H45.7v-2.7a2.7 2.7 0 0 1 2.6-2.6h32a2.7 2.7 0 0 1 2.7 2.6V46Zm-9 29.1c.3.2.7.2 1 .2a2.7 2.7 0 0 0 2.7-2.6V72l-.2-.4a2 2 0 0 0-.2-.5l-.4-.4-.4-.3a2 2 0 0 0-.4-.3l-.6-.2a2.7 2.7 0 0 0-2.7 1.1 2 2 0 0 0-.3.5l-.1.5v.5c0 .7.3 1.4.8 1.9.2.2.5.5.8.6Zm-21.3 0c.3.2.6.2 1 .2a2.7 2.7 0 0 0 2.6-2.6V72l-.1-.4a2 2 0 0 0-.3-.5c0-.2-.2-.3-.3-.4l-.4-.3-.5-.3-.5-.2a2.7 2.7 0 0 0-2.7 1.1 2 2 0 0 0-.3.5l-.1.5v.5c0 .7.2 1.4.7 1.9.3.2.5.5.9.6Z"/>
+    </svg>`;
+    const accommodationSvgBlack = `<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" fill="none">
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#101010"/>
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#000" fill-opacity=".2"/>
+    <path fill="#BCFD49" d="M68.3 52.3H71a2.7 2.7 0 0 0 0-5.3h-2.7a2.7 2.7 0 1 0 0 5.3Zm0 10.7H71a2.7 2.7 0 0 0 0-5.3h-2.7a2.7 2.7 0 0 0 0 5.3ZM55 52.3h2.7a2.7 2.7 0 0 0 0-5.3H55a2.7 2.7 0 1 0 0 5.3ZM55 63h2.7a2.7 2.7 0 0 0 0-5.3H55a2.7 2.7 0 0 0 0 5.3Zm32 21.3h-2.7V39a2.7 2.7 0 0 0-2.6-2.7H44.3a2.7 2.7 0 0 0-2.6 2.7v45.3H39a2.7 2.7 0 1 0 0 5.4h48a2.7 2.7 0 1 0 0-5.4Zm-21.3 0h-5.4V73.7h5.4v10.6Zm13.3 0h-8V71a2.7 2.7 0 0 0-2.7-2.7H57.7A2.7 2.7 0 0 0 55 71v13.3h-8V41.7h32v42.6Z"/>
+    </svg>`;
+    const planningSvgBlack = `<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" fill="none">
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#101010"/>
+    <circle cx="62.5" cy="62.5" r="62.5" fill="#000" fill-opacity=".2"/>
+    <path stroke="#BCFD49" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M79 80.7V78c0-5.9-4.8-10.7-10.7-10.7H57.7c-6 0-10.7 4.8-10.7 10.7v2.7m45.3 0V78c0-5.9-4.7-10.7-10.6-10.7h-1.4M33.7 80.7V78c0-5.9 4.7-10.7 10.6-10.7h1.4m30.6-8a8 8 0 1 0 0-16m-26.6 16a8 8 0 0 1 0-16m21.3 8a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/>
+    </svg>`;
+
+    confidenceList.append(
+        confidenceListElementCreation(depositSvgBlack, 'Only $100 deposit to book', 'Reserve your space now with a deposit, pay the rest 45 days before departure'),
+        confidenceListElementCreation(transportationSvgBlack, 'Transportation', 'Whether you are travelling through Air, Sea or Land, We can arrange transportation according to'),
+        confidenceListElementCreation(accommodationSvgBlack, 'Accommodation', 'No matter where you are travelling, We are here to help you get the best deals in Hotels around the world'),
+        confidenceListElementCreation(planningSvgBlack, 'Expert Trip Planning', 'Our Talented and Expert Trip Planning Team can make itinerary that suits our clients the best. We will make your travel')
+    );
+
+    confidenceWrapper.append(confidenceHeader, confidenceDescription, confidenceList);
+    confidenceSection.append(confidenceWrapper);
+
+    popUpField.append(header, tripDetailsSection, tripScheduleSection, confidenceSection);
+}
+
+const confidenceListElementCreation = (svg, title, description) => {
+    const listElement = elementCreation('li', 'confidence-list-element');
+    const listElementSvg = elementCreation('div', 'confidence-list-element-svg');
+    listElementSvg.innerHTML = svg;
+    const listElementTitle = elementCreation('span', 'confidence-list-element-header');
+    listElementTitle.innerText = title;
+    const listElementDescription = elementCreation('span', 'confidence-list-element-description');
+    listElementDescription.innerText = description;
+    listElement.append(listElementSvg, listElementTitle, listElementDescription);
+
+    return listElement;
 }
 
 const descriptionListElementCreation = (svg, title, firstConstant, secondConstant) => {
@@ -172,5 +224,4 @@ popUpWrapper.addEventListener('click', (e) => {
     if(e.target === popUpWrapper) {
         hideTripDetails();
     }
-})
-
+});

@@ -1,4 +1,5 @@
 import BurgerMenu from './BurgerMenu';
+import HeaderSearchMenu from './HeaderSearchMenu';
 import HeroSlider from './HeroSlider'
 import PopularTripsSlider from './PopularTripsSlider';
 import RegionSearch from './RegionSearch';
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const popularTripsSlider = new PopularTripsSlider();
     const navMenu = new BurgerMenu();
     const regionSearch = new RegionSearch();
+    const headerSearchMenu = new HeaderSearchMenu();
 
     const recentlyList = document.querySelector('.recently-trips__list');
     const popularTrips = document.querySelector('.popular-trips__list');

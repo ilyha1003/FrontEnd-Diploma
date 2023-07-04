@@ -1,5 +1,6 @@
 import { getMatchedData } from "../../../js/fakeAPI.js";
-import LocalStorage from "../../destinations-page/js/localStorage.js";
+import LocalStorageDestionations from "../../destinations-page/js/LocalStorageDestinations.js";
+import LocalStorage from "../../../js/LocalStorage.js";
 import { errorImage } from "./list.js";
 import { loaderHTML } from "./loader";
 
@@ -34,15 +35,27 @@ class PageLoading {
             this.searching();
         };
         this.resetBtn.addEventListener('click', () => {
-            if(this.regionInput.value || this.countryInput.value) {
+            if(this.regionInput.value || this.countryInput.value || this.dateInput.value) {
                 this.searching();
                 this.regionInput.value = '';
                 this.countryInput.value = '';
+                this.dateInput.value = '';
             }
         });
+
         this.emptyFieldsSearching();
-        this.regionInput.value = LocalStorage.getRegionName() ? LocalStorage.getRegionName() : '';
-        LocalStorage.setRegionName('');
+
+        if(LocalStorageDestionations.getRegionName()) {
+            this.regionInput.value = LocalStorageDestionations.getRegionName()
+            LocalStorageDestionations.setRegionName('');
+        }
+        
+        if(LocalStorage.getRegionValue() || LocalStorage.getPlaceValue() || LocalStorage.getDateValue()) {
+            this.regionInput.value = LocalStorage.getRegionValue();
+            this.countryInput.value = LocalStorage.getPlaceValue();
+            this.dateInput.value = LocalStorage.getDateValue();
+            LocalStorage.setInputValues('', '', '');
+        }
     }
 }
 

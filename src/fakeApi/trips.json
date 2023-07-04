@@ -2,7 +2,7 @@
     {
         "title": "Scandinavia",
         "region": "Europe",
-        "keyword": "denmark, sweden, norway",
+        "keyword": "denmark, sweden, norway, scandinavia",
         "price": "1900$",
         "oldprice": "2100$",
         "previewImage": "https://psykologisk.no/wp-content/uploads/2021/06/Mental-helse-bedre-pa-sommeren.jpg.webp",
@@ -268,7 +268,7 @@
     {
         "title": "Greek Island Hopping",
         "region": "Europe",
-        "keyword": "greece",
+        "keyword": "greece, island",
         "price": "1900$",
         "oldprice": "2100$",
         "previewImage": "https://www.mirf.ru/wp-content/uploads/2017/12/diving-1133506_1280-768x432.jpg",
@@ -343,7 +343,7 @@
     {
         "title": "Norway Adventure",
         "region": "Europe",
-        "keyword": "norway",
+        "keyword": "norway, mountains",
         "price": "1400$",
         "oldprice": "1600$",
         "previewImage": "https://img.the-steppe.com/images/news/6045-bVvcCGL3.jpg",
@@ -408,7 +408,7 @@
     {
         "title": "Romantic Paris Date",
         "region": "Europe",
-        "keyword": "france, paris",
+        "keyword": "france, paris, eiffel tower",
         "price": "1600$",
         "oldprice": "1800$",
         "previewImage": "https://img.freepik.com/premium-photo/lovers-in-paris-with-the-eiffel-tower-in-the-background_494619-1300.jpg?w=1380",
@@ -473,7 +473,7 @@
     {
         "title": "Great Britain Adventure",
         "region": "Europe",
-        "keyword": "great britain",
+        "keyword": "great britain, london, scotland, ireland, manchester, edinburgh",
         "price": "2100$",
         "oldprice": "2300$",
         "previewImage": "https://imgproxy.natucate.com/zNWdfsJ8gOR1_hAw2ppCOBMMzVyN5KkDqMJ4eEDIye4/rs:fill/g:ce/w:3840/h:2160/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvZDM0MTBkYTMtZWM4Yi00ODM5LTgzYzYtMWNkM2M3OGNlNDgzL2FlMDE2YWY1OTYtMTY3OTQ4Njg2OS9ncm9zc2JyaXRhbm5pZW4tdWstbGFlbmRlcmluZm9ybWF0aW9uZW4tYnJ1ZWNrZS10b3dlci1icmlkZ2UtbG9uZG9uLW5hdHVjYXRlLmpwZw",
@@ -628,7 +628,7 @@
     {
         "title": "Yellowstone and Grand Tetons",
         "region": "usa",
-        "keyword": "usa, grand teton",
+        "keyword": "usa, grand teton, yellowstone",
         "price": "995$",
         "oldprice": "1250$",
         "previewImage": "https://www.wellplannedjourney.com/wp-content/uploads/Grand-Teton-Reflection.jpg",
@@ -898,7 +898,7 @@
     {
         "title": "Las Vegas Strip",
         "region": "USA",
-        "keyword": "usa, las vegas",
+        "keyword": "usa, las vegas, casino",
         "price": "1990$",
         "oldprice": "2100$",
         "previewImage": "https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/Las%20Vegas_6.jpg",
@@ -1018,7 +1018,7 @@
     {
         "title": "Mexico adventures",
         "region": "Latin America",
-        "keyword": "mexico",
+        "keyword": "mexico, rodeo",
         "price": "1820$",
         "oldprice": "1990$",
         "previewImage": "https://ticketforplane.ru/sites/default/files/Avtor/images/novij-god_0.jpg",
@@ -1073,7 +1073,7 @@
     {
         "title": "Cuba",
         "region": "Latin America",
-        "keyword": "cuba",
+        "keyword": "cuba, cigar",
         "price": "2400$",
         "oldprice": "2500$",
         "previewImage": "https://verblud-travel.ru/wp-content/uploads/2022/02/cuba_havana.jpg",
@@ -1208,7 +1208,7 @@
     {
         "title": "Mysterious Machu Picchu",
         "region": "Latin America",
-        "keyword": "machu picchu",
+        "keyword": "machu picchu, lost city",
         "price": "1730$",
         "oldprice": "1900$",
         "previewImage": "https://www.svoiludi.ru/images/tb/10370/tury-v-machu-pikchu-16663836866026_w687h357.jpg",
@@ -1403,7 +1403,7 @@
     {
         "title": "Lake Titicaca, Bolivia",
         "region": "Latin America",
-        "keyword": "bolivia",
+        "keyword": "bolivia, titicaca, lake",
         "price": "1820$",
         "oldprice": "2030$",
         "previewImage": "https://blog.ostrovok.ru/wp-content/uploads/2012/03/shutterstock_158988716.jpg",
@@ -1463,7 +1463,7 @@
     {
         "title": "St. Petersburg secrets",
         "region": "Russia",
-        "keyword": "russia, saint petersburg, st. petersburg",
+        "keyword": "russia, saint petersburg, st. petersburg, peterhof",
         "price": "600$",
         "oldprice": "780$",
         "previewImage": "https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2022-06/DJI_0004.jpg.webp?itok=lP-Mz3-J",
@@ -1563,7 +1563,7 @@
     {
         "title": "Sochi adventures",
         "region": "Russia",
-        "keyword": "russia, sochi",
+        "keyword": "russia, sochi, sea",
         "price": "1150$",
         "oldprice": "1200$",
         "previewImage": "https://cdn.sanatory.ru/fill/1200/600/sm/1/aHR0cHM6Ly8yMDk2/MjUuc2VsY2RuLnJ1/L3Nrb19hdHRhY2ht/ZW50cy9ibG9nL3Bh/Z2UvNjA4YmIwODY3/NDlhMTMwMDA3YmI4/YTBiL2F0dGFjaG1l/bnQvYWE2ODljOGRh/Yzc2NjBlOWQyZDc4/ZWRlMjBlMjcxN2Eu/anBn.jpg",
@@ -1628,7 +1628,7 @@
     {
         "title": "Baikal adventures",
         "region": "Russia",
-        "keyword": "russia, irkutsk",
+        "keyword": "russia, irkutsk, lake, baikal",
         "price": "850$",
         "oldprice": "990$",
         "previewImage": "https://ecologyofrussia.ru/upload/iblock/862/4067fpt21rgngjb1zou013oc8etx0pme/pexels_sergei_altushkin_8629965.jpg",
@@ -1753,7 +1753,7 @@
     {
         "title": "Great Lakes",
         "region": "Canada",
-        "keyword": "canada",
+        "keyword": "canada, lakes, great lakes",
         "price": "1210$",
         "oldprice": "1400$",
         "previewImage": "https://www.tripzaza.com/ru/destinations/wp-content/uploads/2017/03/Canada-6-The-Great-Lakes-e1490493441251.jpg",
@@ -1808,7 +1808,7 @@
     {
         "title": "Niagara Falls",
         "region": "Canada",
-        "keyword": "canada, ontario",
+        "keyword": "canada, ontario, niagara, falls, niagara falls",
         "price": "1340$",
         "oldprice": "1520$",
         "previewImage": "https://waterfal.ru/wp-content/uploads/2020/04/1-%D0%9D%D0%B8%D0%B0%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D0%B2%D0%BE%D0%B4%D0%BE%D0%BF%D0%B0%D0%B4-%D0%BF%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0.jpg",
@@ -1858,7 +1858,7 @@
     {
         "title": "Banff National Park",
         "region": "Canada",
-        "keyword": "canada, alberta",
+        "keyword": "canada, alberta, national park, park, banff national park",
         "price": "1280$",
         "oldprice": "1390$",
         "previewImage": "https://abbyventure.com/wp-content/uploads/sites/6883/2019/08/20190811-203932-BANFF.jpg",
@@ -1927,11 +1927,11 @@
     {
         "title": "Tokyo city",
         "region": "Asia",
-        "keyword": "japan, tokyo",
+        "keyword": "japan, tokyo, ramen, anime, asian tours",
         "price": "1960$",
         "oldprice": "2100$",
         "previewImage": "https://iamamodel.in.ua/wp-content/uploads/2020/04/tokio.jpg",
-        "previewDescription": "If you don’t know where to start your journey through Asian countries, then this tour is definitely for you.",
+        "previewDescription": "If you don't know where to start your journey through Asian countries, then this tour is definitely for you.",
         "detailsImage": "https://c0.wallpaperflare.com/preview/161/274/445/city-cars-night-blue.jpg",
         "days": "12 Days",
         "places": "8 Places",
@@ -2007,7 +2007,7 @@
     {
         "title": "Maldives",
         "region": "Asia",
-        "keyword": "maldives",
+        "keyword": "maldives, ocean, islands",
         "price": "1310$",
         "oldprice": "1620$",
         "previewImage": "https://tripmydream.cc/travelhub/blog/blog/49/09/block_4909.jpg",
@@ -2062,7 +2062,7 @@
     {
         "title": "Seoul",
         "region": "Asia",
-        "keyword": "seoul",
+        "keyword": "seoul, corea, martial arts",
         "price": "1020$",
         "oldprice": "1310$",
         "previewImage": "https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner__blog_post_banner/public/2022-10/inform_optimized.jpg",
@@ -2112,7 +2112,7 @@
     {
         "title": "Philippines Adventures",
         "region": "Asia",
-        "keyword": "philippines",
+        "keyword": "philippines, ocean, islands",
         "price": "1430$",
         "oldprice": "1850$",
         "previewImage": "https://gls-space.ams3.digitaloceanspaces.com/lbcms-container-cz_excursions_resale/88dbe06a-c7a1-11ea-8545-baa2e45fb9df.webp",
@@ -2236,7 +2236,7 @@
     {
         "title": "Kakadu national park",
         "region": "Australia",
-        "keyword": "australia, jabera",
+        "keyword": "australia, jabera, park, national park, kakadu national park",
         "price": "2400$",
         "oldprice": "2520$",
         "previewImage": "https://avatars.dzeninfra.ru/get-zen_doc/2746214/pub_63c596c967ba7f28a7e9be90_63c59c52932f3e39b1b59f63/scale_1200",
@@ -2321,7 +2321,7 @@
     {
         "title": "Victoria falls",
         "region": "Africa",
-        "keyword": "zimbabwe",
+        "keyword": "zimbabwe, falls, victoria falls",
         "price": "1470$",
         "oldprice": "1650$",
         "previewImage": "https://ethnomir.ru/upload/medialibrary/46a/vodopad_viktoriya_1.jpg",
@@ -2376,7 +2376,7 @@
     {
         "title": "Great Sphinx",
         "region": "Africa",
-        "keyword": "giza",
+        "keyword": "giza, pyramids, desert, sphinx",
         "price": "2000$",
         "oldprice": "2100$",
         "previewImage": "https://www.sonikstour.ru/upload/resize_cache/webp/upload/iblock/de4/de47f624c8461f4993eb227c7a0c4727.webp",

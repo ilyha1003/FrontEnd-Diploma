@@ -1,5 +1,5 @@
 import { getData } from "../../../js/fakeAPI";
-import LocalStorage from "./localStorage";
+import LocalStorageDestinations from "./LocalStorageDestinations.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     const recentlyList = document.querySelector('.recently-trips__list');
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     listElements.forEach((el) => {
         el.addEventListener('click', () => {
             const regionName = el.querySelector('.places-name').innerHTML;
-            LocalStorage.setRegionName(regionName);
+            LocalStorageDestinations.setRegionName(regionName);
         })
     })
 })
