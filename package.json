@@ -5,8 +5,8 @@
   "homepage": "https://ilyha1003.github.io/FrontEnd-Diploma/",
   "source": "./index.html",
   "scripts": {
-    "start": "parcel ./index.html",
-    "build": "parcel build ./index.html --public-url /FrontEnd-Diploma/"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /FrontEnd-Diploma/"
   },
   "repository": {
     "type": "git",
