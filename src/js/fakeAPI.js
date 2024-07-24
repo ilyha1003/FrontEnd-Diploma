@@ -19,7 +19,7 @@ const getTrips = async () => {
     const countryInputValue = countryInput.value;
 
     try {
-        const data = await fetch(`https://ilyha1003.github.io/Api-for-travelSite/`);
+        const data = await fetch(`https://ilyha1003.github.io/Api-for-travelSite/trips.json/`);
         const json = await data.json();
 
         fillTripsList(json, regionInputValue, countryInputValue);
@@ -32,7 +32,7 @@ const getTrips = async () => {
 
 export const getInfo = async (wrapper, tripName1, tripName2, tripName3) => {
     try {
-        const data = await fetch(`https://ilyha1003.github.io/Api-for-travelSite/`);
+        const data = await fetch(`https://ilyha1003.github.io/Api-for-travelSite/trips.json/`);
         const json = await data.json();
 
         fillRecentlyList(json, wrapper, tripName1, tripName2, tripName3);
@@ -45,7 +45,7 @@ export const getInfo = async (wrapper, tripName1, tripName2, tripName3) => {
 
 export const getPopularTrips = async (wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, additionalListElementClassName, additionalImageWrapperClassName) => {
     try {
-        const data = await fetch(`https://ilyha1003.github.io/Api-for-travelSite/`);
+        const data = await fetch(`https://ilyha1003.github.io/Api-for-travelSite/trips.json/`);
         const json = await data.json();
 
         fillPopularList(json, wrapper, tripName1, tripName2, tripName3, tripName4, tripName5, additionalListElementClassName, additionalImageWrapperClassName);
